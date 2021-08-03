@@ -1,9 +1,15 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" standalone="yes"?>
 <commodity>
   <item>
     <Product_name>Apple</Product_name>
     <Quantity>123</Quantity>
     <Cost>10</Cost>
     <Selling_price>15</Selling_price>
+  </item>
+  <item>
+    <Product_name>qwerasd</Product_name>
+    <Quantity>123123</Quantity>
+    <Cost>456123</Cost>
+    <Selling_price>789123</Selling_price>
   </item>
 </commodity>
