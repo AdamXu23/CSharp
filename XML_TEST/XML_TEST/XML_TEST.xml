@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<commodity>
+  <item>
+    <Product_name>Apple</Product_name>
+    <Quantity>123</Quantity>
+    <Cost>10</Cost>
+    <Selling_price>15</Selling_price>
+  </item>
+</commodity>

@@ -1,0 +1,10 @@
+C:\Users\Administrator\Documents\GitHub\CSharp\XML_TEST\XML_TEST\bin\Debug\XML_TEST.exe.config
+C:\Users\Administrator\Documents\GitHub\CSharp\XML_TEST\XML_TEST\bin\Debug\XML_TEST.exe
+C:\Users\Administrator\Documents\GitHub\CSharp\XML_TEST\XML_TEST\bin\Debug\XML_TEST.pdb
+C:\Users\Administrator\Documents\GitHub\CSharp\XML_TEST\XML_TEST\obj\Debug\XML_TEST.csproj.AssemblyReference.cache
+C:\Users\Administrator\Documents\GitHub\CSharp\XML_TEST\XML_TEST\obj\Debug\XML_TEST.Form1.resources
+C:\Users\Administrator\Documents\GitHub\CSharp\XML_TEST\XML_TEST\obj\Debug\XML_TEST.Properties.Resources.resources
+C:\Users\Administrator\Documents\GitHub\CSharp\XML_TEST\XML_TEST\obj\Debug\XML_TEST.csproj.GenerateResource.cache
+C:\Users\Administrator\Documents\GitHub\CSharp\XML_TEST\XML_TEST\obj\Debug\XML_TEST.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\GitHub\CSharp\XML_TEST\XML_TEST\obj\Debug\XML_TEST.exe
+C:\Users\Administrator\Documents\GitHub\CSharp\XML_TEST\XML_TEST\obj\Debug\XML_TEST.pdb
