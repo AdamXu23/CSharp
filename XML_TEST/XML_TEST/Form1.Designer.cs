@@ -170,7 +170,7 @@ namespace XML_TEST
             // 
             // Find_Result
             // 
-            this.Find_Result.Font = new System.Drawing.Font("SimSun", 20.25F, System.Drawing.FontStyle.Bold);
+            this.Find_Result.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Find_Result.Location = new System.Drawing.Point(543, 188);
             this.Find_Result.Multiline = true;
             this.Find_Result.Name = "Find_Result";
