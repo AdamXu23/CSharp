@@ -46,11 +46,8 @@ namespace ADO_SQLExoress_TEST
             //判斷資料路目前的狀態
             if(cn.State == ConnectionState.Closed)
             {
-                //資料庫如果沒有連綫
-                cn.Open();
-                Open_button.Text = "Close";
-                SQL_LOG.AppendText(DateTime.Now.ToString() + Environment.NewLine);
-                SQL_LOG.AppendText("Event\t\t:Database is linked." + Environment.NewLine);
+                //資料庫如果沒有連綫，建立鏈接
+                SQL_Open();
             }
             else
             {
@@ -60,20 +57,42 @@ namespace ADO_SQLExoress_TEST
                 SQL_LOG.AppendText("Event\t\t:Database disconnected." + Environment.NewLine);
             }
         }
+        //創建資料庫鏈接功能
+        private void SQL_Open()
+        {
+            cn.Open();
+            Open_button.Text = "Close";
+            SQL_LOG.AppendText(DateTime.Now.ToString() + Environment.NewLine);
+            SQL_LOG.AppendText("Event\t\t:Database is linked." + Environment.NewLine);
+        }
 
         private void Read_All_button_Click(object sender, EventArgs e)
         {
+            //創建讀取Staff資料表的CMD
             SqlCommand cmd = new SqlCommand("SELECT * FROM Staff", cn);
-            SqlDataReader dr = cmd.ExecuteReader();
-            SQL_LOG.AppendText(DateTime.Now.ToString() + Environment.NewLine);
-            SQL_LOG.AppendText("CMD\t\t:" + cmd.CommandText + Environment.NewLine);
-            //輸出欄位内容
-            string Field_Content_Str = string.Empty;
-            for(int i = 0; i < dr.FieldCount; i++)
+            //判斷資料庫是否鏈接
+            if (cn.State == ConnectionState.Open)
             {
-                Field_Content_Str += dr.GetName(i) + "\t";
+                //讀取資料
+                SqlDataReader dr = cmd.ExecuteReader();
+                //輸出讀取時間
+                SQL_LOG.AppendText(DateTime.Now.ToString() + Environment.NewLine);
+                //輸出讀取命令
+                SQL_LOG.AppendText("CMD\t\t:" + cmd.CommandText + Environment.NewLine);
+                //輸出欄位内容
+                string Field_Content_Str = string.Empty;
+                for (int i = 0; i < dr.FieldCount; i++)
+                {
+                    Field_Content_Str += dr.GetName(i) + "\t";
+                }
+                SQL_LOG.AppendText(Field_Content_Str + Environment.NewLine + Environment.NewLine);
             }
-            SQL_LOG.AppendText( Field_Content_Str + Environment.NewLine + Environment.NewLine);
+            else
+            {
+                SQL_LOG.AppendText(DateTime.Now.ToString() + Environment.NewLine);
+                SQL_LOG.AppendText("CMD\t\t:" + cmd.CommandText + Environment.NewLine);
+                SQL_LOG.AppendText("CMD\t\t:" + cmd.CommandText + Environment.NewLine);
+            }
         }
     }
 }
