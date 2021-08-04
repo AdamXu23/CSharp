@@ -1,0 +1,11 @@
+C:\Users\Administrator\Documents\GitHub\CSharp\ADO_SQLExoress_TEST\ADO_SQLExoress_TEST\bin\Debug\MyDB.mdf
+C:\Users\Administrator\Documents\GitHub\CSharp\ADO_SQLExoress_TEST\ADO_SQLExoress_TEST\bin\Debug\MyDB_log.ldf
+C:\Users\Administrator\Documents\GitHub\CSharp\ADO_SQLExoress_TEST\ADO_SQLExoress_TEST\bin\Debug\ADO_SQLExoress_TEST.exe.config
+C:\Users\Administrator\Documents\GitHub\CSharp\ADO_SQLExoress_TEST\ADO_SQLExoress_TEST\bin\Debug\ADO_SQLExoress_TEST.exe
+C:\Users\Administrator\Documents\GitHub\CSharp\ADO_SQLExoress_TEST\ADO_SQLExoress_TEST\bin\Debug\ADO_SQLExoress_TEST.pdb
+C:\Users\Administrator\Documents\GitHub\CSharp\ADO_SQLExoress_TEST\ADO_SQLExoress_TEST\obj\Debug\ADO_SQLExoress_TEST.csproj.AssemblyReference.cache
+C:\Users\Administrator\Documents\GitHub\CSharp\ADO_SQLExoress_TEST\ADO_SQLExoress_TEST\obj\Debug\ADO_SQLExoress_TEST.Properties.Resources.resources
+C:\Users\Administrator\Documents\GitHub\CSharp\ADO_SQLExoress_TEST\ADO_SQLExoress_TEST\obj\Debug\ADO_SQLExoress_TEST.csproj.GenerateResource.cache
+C:\Users\Administrator\Documents\GitHub\CSharp\ADO_SQLExoress_TEST\ADO_SQLExoress_TEST\obj\Debug\ADO_SQLExoress_TEST.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\GitHub\CSharp\ADO_SQLExoress_TEST\ADO_SQLExoress_TEST\obj\Debug\ADO_SQLExoress_TEST.exe
+C:\Users\Administrator\Documents\GitHub\CSharp\ADO_SQLExoress_TEST\ADO_SQLExoress_TEST\obj\Debug\ADO_SQLExoress_TEST.pdb
