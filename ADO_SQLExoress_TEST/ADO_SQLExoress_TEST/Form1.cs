@@ -60,5 +60,20 @@ namespace ADO_SQLExoress_TEST
                 SQL_LOG.AppendText("Event\t\t:Database disconnected." + Environment.NewLine);
             }
         }
+
+        private void Read_All_button_Click(object sender, EventArgs e)
+        {
+            SqlCommand cmd = new SqlCommand("SELECT * FROM Staff", cn);
+            SqlDataReader dr = cmd.ExecuteReader();
+            SQL_LOG.AppendText(DateTime.Now.ToString() + Environment.NewLine);
+            SQL_LOG.AppendText("CMD\t\t:" + cmd.CommandText + Environment.NewLine);
+            //輸出欄位内容
+            string Field_Content_Str = string.Empty;
+            for(int i = 0; i < dr.FieldCount; i++)
+            {
+                Field_Content_Str += dr.GetName(i) + "\t";
+            }
+            SQL_LOG.AppendText( Field_Content_Str + Environment.NewLine + Environment.NewLine);
+        }
     }
 }

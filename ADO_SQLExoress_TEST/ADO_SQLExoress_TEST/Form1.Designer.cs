@@ -31,6 +31,7 @@ namespace ADO_SQLExoress_TEST
         {
             this.Open_button = new System.Windows.Forms.Button();
             this.SQL_LOG = new System.Windows.Forms.TextBox();
+            this.Read_All_button = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Open_button
@@ -38,7 +39,7 @@ namespace ADO_SQLExoress_TEST
             this.Open_button.Font = new System.Drawing.Font("SimSun", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.Open_button.Location = new System.Drawing.Point(12, 12);
             this.Open_button.Name = "Open_button";
-            this.Open_button.Size = new System.Drawing.Size(193, 39);
+            this.Open_button.Size = new System.Drawing.Size(148, 53);
             this.Open_button.TabIndex = 0;
             this.Open_button.Text = "Open";
             this.Open_button.UseVisualStyleBackColor = true;
@@ -47,18 +48,30 @@ namespace ADO_SQLExoress_TEST
             // SQL_LOG
             // 
             this.SQL_LOG.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SQL_LOG.Location = new System.Drawing.Point(12, 57);
+            this.SQL_LOG.Location = new System.Drawing.Point(12, 71);
             this.SQL_LOG.Multiline = true;
             this.SQL_LOG.Name = "SQL_LOG";
             this.SQL_LOG.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.SQL_LOG.Size = new System.Drawing.Size(1018, 381);
+            this.SQL_LOG.Size = new System.Drawing.Size(1018, 367);
             this.SQL_LOG.TabIndex = 1;
+            // 
+            // Read_All_button
+            // 
+            this.Read_All_button.Font = new System.Drawing.Font("SimSun", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.Read_All_button.Location = new System.Drawing.Point(166, 12);
+            this.Read_All_button.Name = "Read_All_button";
+            this.Read_All_button.Size = new System.Drawing.Size(148, 53);
+            this.Read_All_button.TabIndex = 2;
+            this.Read_All_button.Text = "Read All";
+            this.Read_All_button.UseVisualStyleBackColor = true;
+            this.Read_All_button.Click += new System.EventHandler(this.Read_All_button_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1042, 450);
+            this.Controls.Add(this.Read_All_button);
             this.Controls.Add(this.SQL_LOG);
             this.Controls.Add(this.Open_button);
             this.Name = "Form1";
@@ -73,6 +86,7 @@ namespace ADO_SQLExoress_TEST
 
         private System.Windows.Forms.Button Open_button;
         private System.Windows.Forms.TextBox SQL_LOG;
+        private System.Windows.Forms.Button Read_All_button;
     }
 }
 
