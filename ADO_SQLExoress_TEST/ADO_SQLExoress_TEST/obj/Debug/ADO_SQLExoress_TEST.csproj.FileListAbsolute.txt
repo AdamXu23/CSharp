@@ -9,3 +9,4 @@ C:\Users\Administrator\Documents\GitHub\CSharp\ADO_SQLExoress_TEST\ADO_SQLExores
 C:\Users\Administrator\Documents\GitHub\CSharp\ADO_SQLExoress_TEST\ADO_SQLExoress_TEST\obj\Debug\ADO_SQLExoress_TEST.csproj.CoreCompileInputs.cache
 C:\Users\Administrator\Documents\GitHub\CSharp\ADO_SQLExoress_TEST\ADO_SQLExoress_TEST\obj\Debug\ADO_SQLExoress_TEST.exe
 C:\Users\Administrator\Documents\GitHub\CSharp\ADO_SQLExoress_TEST\ADO_SQLExoress_TEST\obj\Debug\ADO_SQLExoress_TEST.pdb
+C:\Users\Administrator\Documents\GitHub\CSharp\ADO_SQLExoress_TEST\ADO_SQLExoress_TEST\obj\Debug\ADO_SQLExoress_TEST.Form1.resources
