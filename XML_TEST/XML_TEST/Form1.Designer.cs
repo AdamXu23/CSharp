@@ -43,6 +43,7 @@ namespace XML_TEST
             this.Selling_price = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.Find_Result = new System.Windows.Forms.TextBox();
+            this.UpData_button = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -58,7 +59,7 @@ namespace XML_TEST
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("SimSun", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label1.Font = new System.Drawing.Font("宋体", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label1.Location = new System.Drawing.Point(538, 18);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(192, 27);
@@ -67,7 +68,7 @@ namespace XML_TEST
             // 
             // Product_name
             // 
-            this.Product_name.Font = new System.Drawing.Font("SimSun", 20.25F, System.Drawing.FontStyle.Bold);
+            this.Product_name.Font = new System.Drawing.Font("宋体", 20.25F, System.Drawing.FontStyle.Bold);
             this.Product_name.Location = new System.Drawing.Point(751, 12);
             this.Product_name.Name = "Product_name";
             this.Product_name.Size = new System.Drawing.Size(321, 38);
@@ -75,7 +76,7 @@ namespace XML_TEST
             // 
             // Find_button
             // 
-            this.Find_button.Font = new System.Drawing.Font("SimSun", 20.25F, System.Drawing.FontStyle.Bold);
+            this.Find_button.Font = new System.Drawing.Font("宋体", 20.25F, System.Drawing.FontStyle.Bold);
             this.Find_button.Location = new System.Drawing.Point(1078, 12);
             this.Find_button.Name = "Find_button";
             this.Find_button.Size = new System.Drawing.Size(207, 38);
@@ -86,7 +87,7 @@ namespace XML_TEST
             // 
             // Add_button
             // 
-            this.Add_button.Font = new System.Drawing.Font("SimSun", 20.25F, System.Drawing.FontStyle.Bold);
+            this.Add_button.Font = new System.Drawing.Font("宋体", 20.25F, System.Drawing.FontStyle.Bold);
             this.Add_button.Location = new System.Drawing.Point(1078, 56);
             this.Add_button.Name = "Add_button";
             this.Add_button.Size = new System.Drawing.Size(207, 38);
@@ -97,7 +98,7 @@ namespace XML_TEST
             // 
             // Quantity
             // 
-            this.Quantity.Font = new System.Drawing.Font("SimSun", 20.25F, System.Drawing.FontStyle.Bold);
+            this.Quantity.Font = new System.Drawing.Font("宋体", 20.25F, System.Drawing.FontStyle.Bold);
             this.Quantity.Location = new System.Drawing.Point(751, 56);
             this.Quantity.Name = "Quantity";
             this.Quantity.Size = new System.Drawing.Size(321, 38);
@@ -106,7 +107,7 @@ namespace XML_TEST
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("SimSun", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label2.Font = new System.Drawing.Font("宋体", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label2.Location = new System.Drawing.Point(538, 62);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(132, 27);
@@ -115,17 +116,18 @@ namespace XML_TEST
             // 
             // Revise_button
             // 
-            this.Revise_button.Font = new System.Drawing.Font("SimSun", 20.25F, System.Drawing.FontStyle.Bold);
+            this.Revise_button.Font = new System.Drawing.Font("宋体", 20.25F, System.Drawing.FontStyle.Bold);
             this.Revise_button.Location = new System.Drawing.Point(1078, 100);
             this.Revise_button.Name = "Revise_button";
             this.Revise_button.Size = new System.Drawing.Size(207, 38);
             this.Revise_button.TabIndex = 9;
             this.Revise_button.Text = "Revise";
             this.Revise_button.UseVisualStyleBackColor = true;
+            this.Revise_button.Click += new System.EventHandler(this.Revise_button_Click);
             // 
             // Cost
             // 
-            this.Cost.Font = new System.Drawing.Font("SimSun", 20.25F, System.Drawing.FontStyle.Bold);
+            this.Cost.Font = new System.Drawing.Font("宋体", 20.25F, System.Drawing.FontStyle.Bold);
             this.Cost.Location = new System.Drawing.Point(751, 100);
             this.Cost.Name = "Cost";
             this.Cost.Size = new System.Drawing.Size(321, 38);
@@ -134,7 +136,7 @@ namespace XML_TEST
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("SimSun", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label3.Font = new System.Drawing.Font("宋体", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label3.Location = new System.Drawing.Point(538, 106);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(72, 27);
@@ -143,17 +145,18 @@ namespace XML_TEST
             // 
             // Delete_button
             // 
-            this.Delete_button.Font = new System.Drawing.Font("SimSun", 20.25F, System.Drawing.FontStyle.Bold);
+            this.Delete_button.Font = new System.Drawing.Font("宋体", 20.25F, System.Drawing.FontStyle.Bold);
             this.Delete_button.Location = new System.Drawing.Point(1078, 144);
             this.Delete_button.Name = "Delete_button";
             this.Delete_button.Size = new System.Drawing.Size(207, 38);
             this.Delete_button.TabIndex = 12;
             this.Delete_button.Text = "Delete";
             this.Delete_button.UseVisualStyleBackColor = true;
+            this.Delete_button.Click += new System.EventHandler(this.Delete_button_Click);
             // 
             // Selling_price
             // 
-            this.Selling_price.Font = new System.Drawing.Font("SimSun", 20.25F, System.Drawing.FontStyle.Bold);
+            this.Selling_price.Font = new System.Drawing.Font("宋体", 20.25F, System.Drawing.FontStyle.Bold);
             this.Selling_price.Location = new System.Drawing.Point(751, 144);
             this.Selling_price.Name = "Selling_price";
             this.Selling_price.Size = new System.Drawing.Size(321, 38);
@@ -162,7 +165,7 @@ namespace XML_TEST
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("SimSun", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label4.Font = new System.Drawing.Font("宋体", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label4.Location = new System.Drawing.Point(538, 150);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(207, 27);
@@ -171,19 +174,31 @@ namespace XML_TEST
             // 
             // Find_Result
             // 
-            this.Find_Result.Font = new System.Drawing.Font("SimSun", 20.25F, System.Drawing.FontStyle.Bold);
-            this.Find_Result.Location = new System.Drawing.Point(543, 188);
+            this.Find_Result.Font = new System.Drawing.Font("宋体", 20.25F, System.Drawing.FontStyle.Bold);
+            this.Find_Result.Location = new System.Drawing.Point(543, 232);
             this.Find_Result.Multiline = true;
             this.Find_Result.Name = "Find_Result";
             this.Find_Result.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.Find_Result.Size = new System.Drawing.Size(742, 250);
+            this.Find_Result.Size = new System.Drawing.Size(742, 206);
             this.Find_Result.TabIndex = 13;
+            // 
+            // UpData_button
+            // 
+            this.UpData_button.Font = new System.Drawing.Font("宋体", 20.25F, System.Drawing.FontStyle.Bold);
+            this.UpData_button.Location = new System.Drawing.Point(1078, 188);
+            this.UpData_button.Name = "UpData_button";
+            this.UpData_button.Size = new System.Drawing.Size(207, 38);
+            this.UpData_button.TabIndex = 14;
+            this.UpData_button.Text = "UpData";
+            this.UpData_button.UseVisualStyleBackColor = true;
+            this.UpData_button.Click += new System.EventHandler(this.UpData_button_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1297, 450);
+            this.Controls.Add(this.UpData_button);
             this.Controls.Add(this.Find_Result);
             this.Controls.Add(this.Delete_button);
             this.Controls.Add(this.Selling_price);
@@ -223,6 +238,7 @@ namespace XML_TEST
         private System.Windows.Forms.TextBox Selling_price;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox Find_Result;
+        private System.Windows.Forms.Button UpData_button;
     }
 }
 

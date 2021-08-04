@@ -99,6 +99,54 @@ namespace XML_TEST
                 MessageBox.Show(Product_name.Text + "Product name has been duplicated!!", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
+
+        private void Revise_button_Click(object sender, EventArgs e)
+        {
+            //利用DataRowCollection的Find方法搜尋主鍵為Product_name.Text的資料
+            DataRow dr = ds.Tables["item"].Rows.Find(Product_name.Text);
+            //判斷是否有查找到資料，資料沒有查找到 dr==null
+            if (dr == null)
+            {
+                //輸出查找不到的結果,添加記錄
+                MessageBox.Show(Product_name.Text + "Product name does not exist!!", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+            else
+            {
+                //有相同資料結果
+                // 填寫dr内部資料
+                dr["Quantity"] = Quantity.Text;
+                dr["Cost"] = Cost.Text;
+                dr["Selling_price"] = Selling_price.Text;
+                //刷新顯示資料
+                dataGridView1.DataSource = ds.Tables["item"];
+            }
+        }
+
+        private void Delete_button_Click(object sender, EventArgs e)
+        {
+            //利用DataRowCollection的Find方法搜尋主鍵為Product_name.Text的資料
+            DataRow dr = ds.Tables["item"].Rows.Find(Product_name.Text);
+            //判斷是否有查找到資料，資料沒有查找到 dr==null
+            if (dr == null)
+            {
+                //輸出查找不到的結果,添加記錄
+                MessageBox.Show(Product_name.Text + "Product name does not exist!!", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+            else
+            {
+                //有相同資料結果
+                //删除记录
+                ds.Tables["item"].Rows.Remove(dr);
+                //刷新顯示資料
+                dataGridView1.DataSource = ds.Tables["item"];
+            }
+        }
+
+        private void UpData_button_Click(object sender, EventArgs e)
+        {
+            ds.WriteXml("XML_TEST.xml");
+            MessageBox.Show("已经跟新到XML！");
+        }
     }
 
 }
