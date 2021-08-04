@@ -86,12 +86,22 @@ namespace ADO_SQLExoress_TEST
                     Field_Content_Str += dr.GetName(i) + "\t";
                 }
                 SQL_LOG.AppendText(Field_Content_Str + Environment.NewLine + Environment.NewLine);
+                Field_Content_Str = string.Empty;
+                while (dr.Read())
+                {
+                    for(int i = 0;i<dr.FieldCount;i++)
+                    {
+                        Field_Content_Str += dr[i].ToString() + "\t";
+                    }
+                    SQL_LOG.AppendText(Field_Content_Str + Environment.NewLine + Environment.NewLine);
+                }
             }
             else
             {
                 SQL_LOG.AppendText(DateTime.Now.ToString() + Environment.NewLine);
+                SQL_LOG.AppendText("Error\t\t:Database disconnected." + Environment.NewLine);
                 SQL_LOG.AppendText("CMD\t\t:" + cmd.CommandText + Environment.NewLine);
-                SQL_LOG.AppendText("CMD\t\t:" + cmd.CommandText + Environment.NewLine);
+
             }
         }
     }
