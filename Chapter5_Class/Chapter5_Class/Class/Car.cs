@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Chapter5_Class.Class
 {
+    delegate void DangerEvent(int vMax_Speed,int vSpeed);//宣告DangerEvent委派
     class Car
     {
         public int Speed;//(public)建立公共屬性Speed
@@ -112,6 +113,25 @@ namespace Chapter5_Class.Class
         public string Get_Name()
         {
             return Name;
+        }
+
+        //事件的建立
+        //在class外宣告DangerEvent委派delegate void DangerEvent(int vSpeed);
+        public event DangerEvent DangerSpeed;//宣告事件
+        public int Forcibly_Speed
+        {
+            get
+            {
+                return _Speed;
+            }
+            set
+            {
+                if(value>Max_Speed)
+                {
+                    if (DangerSpeed != null) DangerSpeed(Max_Speed,value);//啓動事件
+                }
+                _Speed = value;
+            }
         }
     }
 }

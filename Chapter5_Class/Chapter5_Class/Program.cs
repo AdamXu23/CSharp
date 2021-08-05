@@ -45,7 +45,16 @@ namespace Chapter5_Class
             //物件初始設定式
             Benz = new Class.Car("Benz_CAR");
             Console.WriteLine("Name={0}", Benz.Get_Name());
+
+            //事件觸發的時候執行的方法設定為TooFast
+            Benz = new Class.Car();
+            Benz.DangerSpeed += new Class.DangerEvent(TooFast);
+            Benz.Forcibly_Speed = 300;
             Console.Read();//讓命令提示字窗維持住
+        }
+        static void TooFast(int vMax_Speed, int vSpeed)
+        {
+            Console.WriteLine("_Speed Too Fast,_Max_Speed = {0},Speed={1}",vMax_Speed,vSpeed);
         }
 
     }
