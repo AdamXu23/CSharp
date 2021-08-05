@@ -20,6 +20,15 @@ namespace Chapter5_Class
             Console.WriteLine("Benz._Speed = {0}", Benz.GetSpeed());
             Console.WriteLine("Benz.Angle = {0}", Benz.Angle);//Angle屬性只能讀不能寫
             Benz.Turbo = true;//Turbo屬性只能寫不能讀
+            Benz.Move(100, 200);//設定Benz的X、Y坐標
+            Benz.__Speed = 198;//設定_Speed速度為198
+            Console.WriteLine("_Speed={0}", Benz.__Speed);
+            Benz.Accelerate_1();//Accelerate_1建立的方法速度+1
+            Console.WriteLine("_Speed={0}", Benz.__Speed);
+            Benz.Accelerate_2();//Accelerate_2建立的呼叫自身類別的方法速度+1
+            Console.WriteLine("_Speed={0}", Benz.__Speed);
+            Benz.Accelerate_2();//Accelerate_2建立的呼叫自身類別的方法速度+1
+            Console.WriteLine("_Speed={0}", Benz.__Speed);
             Console.Read();//讓命令提示字窗維持住
         }
 

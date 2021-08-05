@@ -9,7 +9,7 @@ namespace Chapter5_Class.Class
     class Car
     {
         public int Speed;//(public)建立公共屬性Speed
-        private int _Speed;//(private)建立私有屬性_Speed
+        private int _Speed = 0;//(private)建立私有屬性_Speed，初始值為0
         public int GetSpeed()//定義GetSpeed方法來傳回_Speed
         {
             return _Speed;
@@ -47,6 +47,36 @@ namespace Chapter5_Class.Class
             {
                 _Turbo = value;
             }
+        }
+
+        private int _X, _Y;//(private)建立私有屬性_X, _Y坐標位置
+        public void Move(int vX,int vY)//定義Move方法用來設定_X, _Y坐標位置
+        {
+            _X = vX;
+            _Y = vY;
+        }
+
+        public int __Speed//定義Speed可讀可寫屬性
+        {
+            get
+            {
+                return _Speed;
+            }
+            set
+            {
+                if (value < 0) value = 0;//速度不可小於0
+                if (value > 200) value = 200;//速度不可大於200
+                _Speed = value;//設定速度
+            }
+        }
+        public void Accelerate_1()//定義Accelerate_1速度加1方法
+        {
+            _Speed++;//速度+1
+            if (_Speed > 200) _Speed = 200;//速度不能大於200
+        }
+        public void Accelerate_2()//定義Accelerate_2速度加1方法
+        {
+            __Speed++;
         }
     }
 }
