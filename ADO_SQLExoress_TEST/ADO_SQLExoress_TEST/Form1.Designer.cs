@@ -70,7 +70,7 @@ namespace ADO_SQLExoress_TEST
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1042, 450);
+            this.ClientSize = new System.Drawing.Size(1042, 672);
             this.Controls.Add(this.Read_All_button);
             this.Controls.Add(this.SQL_LOG);
             this.Controls.Add(this.Open_button);
