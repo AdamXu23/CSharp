@@ -35,6 +35,13 @@ namespace Chapter5_Class
             Console.WriteLine("_Speed+=10,_Speed={0}", Benz.__Speed);
             Benz.Accelerate("STOP");//使用方法3加速
             Console.WriteLine("_Speed=STOP,_Speed={0}", Benz.__Speed);
+            Benz = new Class.Car();
+            Benz.Get_Speed_range();
+            Benz = new Class.Car(400);
+            Benz.Get_Speed_range();
+            Benz = new Class.Car(500,100);
+            Benz.Get_Speed_range();
+
             Console.Read();//讓命令提示字窗維持住
         }
 

@@ -16,15 +16,15 @@ namespace Chapter5_Class.Class
         }
         public void SetSpeed(int vSpeed)//定義SetSpeed方法來設定_Speed
         {
-            if (vSpeed<0)
+            if (vSpeed < Min_Speed)
             {
-                Console.WriteLine("Speed < 0,Speed = 0");
-                vSpeed = 0;
+                Console.WriteLine("Speed < {0},Speed = {1}", Min_Speed, Min_Speed);
+                vSpeed = Min_Speed;
             }
-            if (vSpeed > 200)
+            if (vSpeed > Max_Speed)
             {
-                Console.WriteLine("Speed > 200,Speed = 200");
-                vSpeed = 200;
+                Console.WriteLine("Speed > {0},Speed = {1}",Max_Speed,Max_Speed);
+                vSpeed = Max_Speed;
             }
             _Speed = vSpeed;
         }
@@ -64,15 +64,15 @@ namespace Chapter5_Class.Class
             }
             set
             {
-                if (value < 0) value = 0;//速度不可小於0
-                if (value > 200) value = 200;//速度不可大於200
+                if (value < Min_Speed) value = Min_Speed;//速度不可小於Min_Speed
+                if (value > Max_Speed) value = Max_Speed;//速度不可大於Max_Speed
                 _Speed = value;//設定速度
             }
         }
         public void Accelerate_1()//定義Accelerate_1速度加1方法
         {
             _Speed++;//速度+1
-            if (_Speed > 200) _Speed = 200;//速度不能大於200
+            if (_Speed > Min_Speed) _Speed = Min_Speed;//速度不能大於200
         }
         public void Accelerate()//定義Accelerate速度加1,呼叫自身類別的方法,方法1
         {
@@ -87,6 +87,30 @@ namespace Chapter5_Class.Class
         public void Accelerate(string s)//定義Accelerate加速度方法2
         {
             if (s == "STOP") __Speed = 0;
+        }
+
+        //建構函式
+        private int Max_Speed, Min_Speed;
+        public Car()
+        {
+            Max_Speed = 200;
+            Min_Speed = 0;
+        }
+        public Car(int vMax_Speed)
+        {
+            Max_Speed = vMax_Speed;
+            Min_Speed = 0;
+        }
+        public Car(int vMax_Speed,int vMin_Speed)
+        {
+            Max_Speed = vMax_Speed;
+            Min_Speed = vMin_Speed;
+        }
+
+        public void Get_Speed_range()
+        {
+            Console.WriteLine("Max_Speed = {0}", Max_Speed);
+            Console.WriteLine("Min_Speed = {0}", Min_Speed);
         }
     }
 }
