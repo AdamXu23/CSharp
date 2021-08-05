@@ -1,0 +1,7 @@
+C:\Users\Administrator\Documents\GitHub\CSharp\Chapter5_Class\Chapter5_Class\bin\Debug\Chapter5_Class.exe.config
+C:\Users\Administrator\Documents\GitHub\CSharp\Chapter5_Class\Chapter5_Class\bin\Debug\Chapter5_Class.exe
+C:\Users\Administrator\Documents\GitHub\CSharp\Chapter5_Class\Chapter5_Class\bin\Debug\Chapter5_Class.pdb
+C:\Users\Administrator\Documents\GitHub\CSharp\Chapter5_Class\Chapter5_Class\obj\Debug\Chapter5_Class.csproj.AssemblyReference.cache
+C:\Users\Administrator\Documents\GitHub\CSharp\Chapter5_Class\Chapter5_Class\obj\Debug\Chapter5_Class.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\GitHub\CSharp\Chapter5_Class\Chapter5_Class\obj\Debug\Chapter5_Class.exe
+C:\Users\Administrator\Documents\GitHub\CSharp\Chapter5_Class\Chapter5_Class\obj\Debug\Chapter5_Class.pdb
