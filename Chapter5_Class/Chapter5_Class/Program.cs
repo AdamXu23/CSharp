@@ -15,6 +15,10 @@ namespace Chapter5_Class
             //設定Benz 的速度為100
             Benz.Speed = 100;
             Console.WriteLine("Benz.Speed = {0}",Benz.Speed);
+            //設定Benz 的速度為500
+            Benz.SetSpeed(500);
+            Console.WriteLine("Benz._Speed = {0}", Benz.GetSpeed());
+
             Console.Read();//讓命令提示字窗維持住
         }
 
