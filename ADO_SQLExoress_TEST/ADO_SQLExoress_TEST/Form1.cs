@@ -75,11 +75,18 @@ namespace ADO_SQLExoress_TEST
             {
                 //讀取資料
                 SqlDataReader dr = cmd.ExecuteReader();
+                //創建 DataTable 物件為 SoccerDataTable 
+                DataTable SoccerDataTable = new DataTable();
+                //把讀取到的資料 Load 到 SoccerDataTable
+                SoccerDataTable.Load(dr);
+                //輸出到DataGridView
+                SQL_DATA.DataSource = SoccerDataTable;
                 //輸出讀取時間
                 SQL_LOG.AppendText(DateTime.Now.ToString() + Environment.NewLine);
                 //輸出讀取命令
                 SQL_LOG.AppendText("CMD\t\t:" + cmd.CommandText + Environment.NewLine);
                 //輸出欄位内容
+                /*
                 string Field_Content_Str = string.Empty;
                 for (int i = 0; i < dr.FieldCount; i++)
                 {
@@ -95,6 +102,7 @@ namespace ADO_SQLExoress_TEST
                     }
                     SQL_LOG.AppendText(Field_Content_Str + Environment.NewLine + Environment.NewLine);
                 }
+                */
             }
             else
             {
