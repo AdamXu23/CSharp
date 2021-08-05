@@ -74,9 +74,19 @@ namespace Chapter5_Class.Class
             _Speed++;//速度+1
             if (_Speed > 200) _Speed = 200;//速度不能大於200
         }
-        public void Accelerate_2()//定義Accelerate_2速度加1方法
+        public void Accelerate()//定義Accelerate速度加1,呼叫自身類別的方法,方法1
         {
             __Speed++;
+        }
+
+        ///方法多載
+        public void Accelerate(int addSpeed)//定義Accelerate加速度方法2
+        {
+            __Speed+= addSpeed;
+        }
+        public void Accelerate(string s)//定義Accelerate加速度方法2
+        {
+            if (s == "STOP") __Speed = 0;
         }
     }
 }

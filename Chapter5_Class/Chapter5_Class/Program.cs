@@ -25,10 +25,16 @@ namespace Chapter5_Class
             Console.WriteLine("_Speed={0}", Benz.__Speed);
             Benz.Accelerate_1();//Accelerate_1建立的方法速度+1
             Console.WriteLine("_Speed={0}", Benz.__Speed);
-            Benz.Accelerate_2();//Accelerate_2建立的呼叫自身類別的方法速度+1
+            Benz.Accelerate();//Accelerate_2建立的呼叫自身類別的方法速度+1
             Console.WriteLine("_Speed={0}", Benz.__Speed);
-            Benz.Accelerate_2();//Accelerate_2建立的呼叫自身類別的方法速度+1
+            Benz.Accelerate();//Accelerate建立的呼叫自身類別的方法速度+1
             Console.WriteLine("_Speed={0}", Benz.__Speed);
+            Benz.__Speed = 0;//設定_Speed速度為0
+            Console.WriteLine("_Speed={0}", Benz.__Speed);
+            Benz.Accelerate(10);//使用方法2加速
+            Console.WriteLine("_Speed+=10,_Speed={0}", Benz.__Speed);
+            Benz.Accelerate("STOP");//使用方法3加速
+            Console.WriteLine("_Speed=STOP,_Speed={0}", Benz.__Speed);
             Console.Read();//讓命令提示字窗維持住
         }
 
