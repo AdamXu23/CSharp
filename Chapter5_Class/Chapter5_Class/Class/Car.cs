@@ -28,7 +28,6 @@ namespace Chapter5_Class.Class
             }
             _Speed = vSpeed;
         }
-
         private int _Angle = 10;//(private)建立私有屬性_Angle，初始值為10
         public int Angle//定義Angle唯讀屬性
         {   
@@ -38,7 +37,6 @@ namespace Chapter5_Class.Class
                 return _Angle;
             }
         }
-
         private bool _Turbo = false;//(private)建立私有屬性_Turbo，初始值為false
         public bool Turbo//定義Turbo唯寫屬性
         {
@@ -48,14 +46,12 @@ namespace Chapter5_Class.Class
                 _Turbo = value;
             }
         }
-
         private int _X, _Y;//(private)建立私有屬性_X, _Y坐標位置
         public void Move(int vX,int vY)//定義Move方法用來設定_X, _Y坐標位置
         {
             _X = vX;
             _Y = vY;
         }
-
         public int __Speed//定義Speed可讀可寫屬性
         {
             get
@@ -78,8 +74,7 @@ namespace Chapter5_Class.Class
         {
             __Speed++;
         }
-
-        ///方法多載
+        //方法多載
         public void Accelerate(int addSpeed)//定義Accelerate加速度方法2
         {
             __Speed+= addSpeed;
@@ -106,11 +101,17 @@ namespace Chapter5_Class.Class
             Max_Speed = vMax_Speed;
             Min_Speed = vMin_Speed;
         }
-
         public void Get_Speed_range()
         {
             Console.WriteLine("Max_Speed = {0}", Max_Speed);
             Console.WriteLine("Min_Speed = {0}", Min_Speed);
+        }
+        //物件初始設定式
+        private string Name { set; get; }
+        public Car(string vName) { Name = vName; }
+        public string Get_Name()
+        {
+            return Name;
         }
     }
 }
