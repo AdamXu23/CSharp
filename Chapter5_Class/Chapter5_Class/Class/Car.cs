@@ -8,19 +8,13 @@ namespace Chapter5_Class.Class
 {
     class Car
     {
-        ///宣告Speed為public共用變數
-        ///public共用變數可以隨意更改
-        public int Speed;
-        ///宣告_Speed為private共用變數
-        ///private為class Car 範圍内的變數
-        private int _Speed;
-        ///定義GetSpeed方法來傳回_Speed
-        public int GetSpeed()
+        public int Speed;//(public)建立公共屬性Speed
+        private int _Speed;//(private)建立私有屬性_Speed
+        public int GetSpeed()//定義GetSpeed方法來傳回_Speed
         {
             return _Speed;
         }
-        ///定義SetSpeed方法來設定_Speed
-        public void SetSpeed(int vSpeed)
+        public void SetSpeed(int vSpeed)//定義SetSpeed方法來設定_Speed
         {
             if (vSpeed<0)
             {
@@ -33,6 +27,26 @@ namespace Chapter5_Class.Class
                 vSpeed = 200;
             }
             _Speed = vSpeed;
+        }
+
+        private int _Angle = 10;//(private)建立私有屬性_Angle，初始值為10
+        public int Angle//定義Angle唯讀屬性
+        {   
+            //Angle屬性只有get沒有set
+            get
+            {
+                return _Angle;
+            }
+        }
+
+        private bool _Turbo = false;//(private)建立私有屬性_Turbo，初始值為false
+        public bool Turbo//定義Turbo唯寫屬性
+        {
+            //Turbo屬性只有set沒有get
+            set
+            {
+                _Turbo = value;
+            }
         }
     }
 }
