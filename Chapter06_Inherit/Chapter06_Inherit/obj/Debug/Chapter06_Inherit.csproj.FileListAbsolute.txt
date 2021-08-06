@@ -1,0 +1,7 @@
+C:\Users\Administrator\Documents\GitHub\CSharp\Chapter06_Inherit\Chapter06_Inherit\bin\Debug\Chapter06_Inherit.exe.config
+C:\Users\Administrator\Documents\GitHub\CSharp\Chapter06_Inherit\Chapter06_Inherit\bin\Debug\Chapter06_Inherit.exe
+C:\Users\Administrator\Documents\GitHub\CSharp\Chapter06_Inherit\Chapter06_Inherit\bin\Debug\Chapter06_Inherit.pdb
+C:\Users\Administrator\Documents\GitHub\CSharp\Chapter06_Inherit\Chapter06_Inherit\obj\Debug\Chapter06_Inherit.csproj.AssemblyReference.cache
+C:\Users\Administrator\Documents\GitHub\CSharp\Chapter06_Inherit\Chapter06_Inherit\obj\Debug\Chapter06_Inherit.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\GitHub\CSharp\Chapter06_Inherit\Chapter06_Inherit\obj\Debug\Chapter06_Inherit.exe
+C:\Users\Administrator\Documents\GitHub\CSharp\Chapter06_Inherit\Chapter06_Inherit\obj\Debug\Chapter06_Inherit.pdb
