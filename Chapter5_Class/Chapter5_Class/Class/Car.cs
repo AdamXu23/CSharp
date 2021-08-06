@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace Chapter5_Class.Class
 {
-    delegate void DangerEvent(int vMax_Speed,int vSpeed);//宣告DangerEvent委派
+    delegate void DangerEvent(int vMax_Speed, int vSpeed);//宣告DangerEvent委派
     class Car
     {
+        
         public int Speed;//(public)建立公共屬性Speed
         private int _Speed = 0;//(private)建立私有屬性_Speed，初始值為0
         public int GetSpeed()//定義GetSpeed方法來傳回_Speed
