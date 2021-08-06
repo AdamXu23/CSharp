@@ -9,7 +9,6 @@ namespace Chapter06_Inherit.Class
     delegate void DangerEvent(int vMax_Speed, int vSpeed);//宣告DangerEvent委派
     class Car
     {
-
         public int Speed;//(public)建立公共屬性Speed
         private int _Speed = 0;//(private)建立私有屬性_Speed，初始值為0
         public int GetSpeed()//定義GetSpeed方法來傳回_Speed
@@ -18,15 +17,15 @@ namespace Chapter06_Inherit.Class
         }
         public void SetSpeed(int vSpeed)//定義SetSpeed方法來設定_Speed
         {
-            if (vSpeed < Min_Speed)
+            if (vSpeed < _Min_Speed)
             {
-                Console.WriteLine("Speed < {0},Speed = {1}", Min_Speed, Min_Speed);
-                vSpeed = Min_Speed;
+                Console.WriteLine("Speed < {0},Speed = {1}", _Min_Speed, _Min_Speed);
+                vSpeed = _Min_Speed;
             }
-            if (vSpeed > Max_Speed)
+            if (vSpeed > _Max_Speed)
             {
-                Console.WriteLine("Speed > {0},Speed = {1}", Max_Speed, Max_Speed);
-                vSpeed = Max_Speed;
+                Console.WriteLine("Speed > {0},Speed = {1}", _Max_Speed, _Max_Speed);
+                vSpeed = _Max_Speed;
             }
             _Speed = vSpeed;
         }
@@ -48,6 +47,7 @@ namespace Chapter06_Inherit.Class
                 _Turbo = value;
             }
         }
+
         private int _X, _Y;//(private)建立私有屬性_X, _Y坐標位置
         public void Move(int vX, int vY)//定義Move方法用來設定_X, _Y坐標位置
         {
@@ -62,15 +62,15 @@ namespace Chapter06_Inherit.Class
             }
             set
             {
-                if (value < Min_Speed) value = Min_Speed;//速度不可小於Min_Speed
-                if (value > Max_Speed) value = Max_Speed;//速度不可大於Max_Speed
+                if (value < _Min_Speed) value = _Min_Speed;//速度不可小於Min_Speed
+                if (value > _Max_Speed) value = _Max_Speed;//速度不可大於Max_Speed
                 _Speed = value;//設定速度
             }
         }
         public void Accelerate_1()//定義Accelerate_1速度加1方法
         {
             _Speed++;//速度+1
-            if (_Speed > Min_Speed) _Speed = Min_Speed;//速度不能大於200
+            if (_Speed > _Min_Speed) _Speed = _Min_Speed;//速度不能大於200
         }
         public void Accelerate()//定義Accelerate速度加1,呼叫自身類別的方法,方法1
         {
@@ -87,33 +87,35 @@ namespace Chapter06_Inherit.Class
         }
 
         //建構函式
-        private int Max_Speed, Min_Speed;
+        private int _Max_Speed, _Min_Speed;
         public Car()
         {
-            Max_Speed = 200;
-            Min_Speed = 0;
+            _Max_Speed = 200;
+            _Min_Speed = 0;
         }
         public Car(int vMax_Speed)
         {
-            Max_Speed = vMax_Speed;
-            Min_Speed = 0;
+            _Max_Speed = vMax_Speed;
+            _Min_Speed = 0;
         }
         public Car(int vMax_Speed, int vMin_Speed)
         {
-            Max_Speed = vMax_Speed;
-            Min_Speed = vMin_Speed;
+            _Max_Speed = vMax_Speed;
+            _Min_Speed = vMin_Speed;
         }
-        public void Get_Speed_range()
+        public string Get_Speed_range()
         {
-            Console.WriteLine("Max_Speed = {0}", Max_Speed);
-            Console.WriteLine("Min_Speed = {0}", Min_Speed);
+            //Console.WriteLine("Max_Speed = {0}", _Max_Speed);
+            //Console.WriteLine("Min_Speed = {0}", _Min_Speed);
+            return "\tMax_Speed=" + _Max_Speed.ToString() +
+                "\tMin_Speed=" + _Min_Speed.ToString();
         }
         //物件初始設定式
-        private string Name { set; get; }
-        public Car(string vName) { Name = vName; }
+        private string _Name { set; get; }
+        public Car(string vName) { _Name = vName; }
         public string Get_Name()
         {
-            return Name;
+            return _Name;
         }
 
         //事件的建立
@@ -127,12 +129,67 @@ namespace Chapter06_Inherit.Class
             }
             set
             {
-                if (value > Max_Speed)
+                if (value > _Max_Speed)
                 {
-                    if (DangerSpeed != null) DangerSpeed(Max_Speed, value);//啓動事件
+                    if (DangerSpeed != null) DangerSpeed(_Max_Speed, value);//啓動事件
                 }
                 _Speed = value;
             }
+        }
+
+
+        //Other New
+
+        private string _Brands;
+        public string Brands 
+        { 
+            get
+            {
+                return _Brands;
+            }
+        }
+
+        public Car(string vName , string vBrands, bool vTurbo, int vMax_Speed, int vMin_Speed)
+        {
+            _Max_Speed = vMax_Speed;
+            _Min_Speed = vMin_Speed;
+            _Name = vName;
+            _Brands = vBrands;
+            _Turbo = vTurbo;
+        }
+        public void Set_Car(string vName, string vBrands, bool vTurbo, int vMax_Speed, int vMin_Speed)
+        {
+            _Max_Speed = vMax_Speed;
+            _Min_Speed = vMin_Speed;
+            _Name = vName;
+            _Brands = vBrands;
+            _Turbo = vTurbo;
+        }
+        public void Set_Car(Car vCar)
+        {
+            _Max_Speed = vCar._Min_Speed;
+            _Min_Speed = vCar._Min_Speed;
+            _Name = vCar._Name;
+            _Brands = vCar._Brands;
+            _Turbo = vCar._Turbo;
+        }
+        public Car(Car vCar)
+        {
+            _Max_Speed = vCar._Min_Speed;
+            _Min_Speed = vCar._Min_Speed;
+            _Name = vCar._Name;
+            _Brands = vCar._Brands;
+            _Turbo = vCar._Turbo;
+        }
+        public bool GetTurbo()
+        {
+            return _Turbo;
+        }
+
+        //覆寫 ToString 方法
+        public override string ToString()
+        {
+            return ("Name="+ _Name + "\tBrands="+ _Brands + "\tTurbo="+ _Turbo.ToString() + "\tMax_Speed="+ _Max_Speed.ToString() + "\tMin_Speed="+ _Min_Speed.ToString());
         }
     }
 }

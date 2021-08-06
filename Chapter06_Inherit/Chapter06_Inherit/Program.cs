@@ -10,6 +10,11 @@ namespace Chapter06_Inherit
     {
         static void Main(string[] args)
         {
+            Class.Car Ada_Car = new Class.Car("Ada", "Benz", true, 380, 0);
+            Console.WriteLine(Ada_Car.ToString());
+            Class.Car_Park Ada_Car_Park = new Class.Car_Park(Ada_Car);
+            Console.WriteLine(Ada_Car_Park.ToString());
+            Console.Read();
         }
     }
 }
