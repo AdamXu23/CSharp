@@ -22,7 +22,48 @@ namespace Chapter06_Inherit
             //Car_Park Total 自動+1
             Class.Car_Park Aaliyah_Car_Park = new Class.Car_Park(Aaliyah_Car);
             Console.WriteLine(Aaliyah_Car_Park.ToString());//輸出Ada_Car_Park物件屬性
+            //=====================================================================================================================================================
+            /*
+            Console.WriteLine("Ada_Car.Price_Worth =={0}", Ada_Car.Price_Worth);
+            Console.WriteLine("Aaliyah_Car_Park.Price_Worth =={0}", Aaliyah_Car_Park.Price_Worth);
+            Ada_Car.Price_Worth = 10;
+            Console.WriteLine("Ada_Car.Price_Worth = 10");
+            Console.WriteLine("Ada_Car.Price_Worth =={0}", Ada_Car.Price_Worth);
+            Console.WriteLine("Aaliyah_Car_Park.Price_Worth =={0}", Aaliyah_Car_Park.Price_Worth);
+            Aaliyah_Car_Park.Price_Worth = 20;
+            Console.WriteLine("Aaliyah_Car_Park.Price_Worth = 20");
+            Console.WriteLine("Ada_Car.Price_Worth =={0}", Ada_Car.Price_Worth);
+            Console.WriteLine("Aaliyah_Car_Park.Price_Worth =={0}", Aaliyah_Car_Park.Price_Worth);
+            string str = Aaliyah_Car_Park.ToString();
+            Console.WriteLine(str);
+            */
+            Employee E = new Employee();
+            E.GetInfo();
+
+
             Console.Read();
         }
     }
+    public class Person
+    {
+        protected string ssn = "444-55-6666";
+        protected string name = "John L. Malgraine";
+
+        public virtual void GetInfo()
+        {
+            Console.WriteLine("Name: {0}", name);
+            Console.WriteLine("SSN: {0}", ssn);
+        }
+    }
+    class Employee : Person
+    {
+        public string id = "ABC567EFG";
+        public override void GetInfo()
+        {
+            // Calling the base class GetInfo method:
+            base.GetInfo();
+            Console.WriteLine("Employee ID: {0}", id);
+        }
+    }
+
 }

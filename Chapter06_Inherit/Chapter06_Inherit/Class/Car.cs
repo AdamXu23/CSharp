@@ -47,7 +47,6 @@ namespace Chapter06_Inherit.Class
                 _Turbo = value;
             }
         }
-
         private int _X, _Y;//(private)建立私有屬性_X, _Y坐標位置
         public void Move(int vX, int vY)//定義Move方法用來設定_X, _Y坐標位置
         {
@@ -85,7 +84,6 @@ namespace Chapter06_Inherit.Class
         {
             if (s == "STOP") __Speed = 0;
         }
-
         //建構函式
         private int _Max_Speed, _Min_Speed;
         public Car()
@@ -117,7 +115,6 @@ namespace Chapter06_Inherit.Class
         {
             return _Name;
         }
-
         //事件的建立
         //在class外宣告DangerEvent委派delegate void DangerEvent(int vSpeed);
         public event DangerEvent DangerSpeed;//宣告事件
@@ -136,10 +133,7 @@ namespace Chapter06_Inherit.Class
                 _Speed = value;
             }
         }
-
-
         //Other New
-
         private string _Brands;
         public string Brands 
         { 
@@ -148,7 +142,6 @@ namespace Chapter06_Inherit.Class
                 return _Brands;
             }
         }
-
         public Car(string vName , string vBrands, bool vTurbo, int vMax_Speed, int vMin_Speed)
         {
             _Max_Speed = vMax_Speed;
@@ -185,10 +178,30 @@ namespace Chapter06_Inherit.Class
         {
             return _Turbo;
         }
-
+        //===============================================================================================================================
+        protected int _Price_Worth;//宣告_Price_Worth為保護成級，此欄位可以在子類別中使用。  
+        public virtual int Price_Worth//父類別的屬性准許被覆寫
+        {
+            get
+            {
+                return _Price_Worth;
+            }
+            set
+            {
+                if (value>=100)
+                {
+                    _Price_Worth = value;
+                }
+                else
+                {
+                    _Price_Worth = 100;
+                }
+            }
+        }
         //覆寫 ToString 方法
         public override string ToString()
         {
+            Console.WriteLine(base.ToString());
             return ("Name="+ _Name + "\tBrands="+ _Brands + "\tTurbo="+ _Turbo.ToString() + "\tMax_Speed="+ _Max_Speed.ToString() + "\tMin_Speed="+ _Min_Speed.ToString());
         }
     }

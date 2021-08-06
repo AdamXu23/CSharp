@@ -42,6 +42,27 @@ namespace Chapter06_Inherit.Class
             No = Total;//記錄是第多少輛；
             _Parking_Time = System.DateTime.Now;
         }
+        //===============================================================================================================================
+        //覆寫Price_Worth
+        public override int Price_Worth//子類別屬性
+        {
+            get
+            {
+                return base.Price_Worth;//對父類別屬性取值
+            }
+            set
+            {
+                if (value >= 10)
+                {
+                    _Price_Worth = value;
+                }
+                else
+                {
+                    base.Price_Worth = value;
+                }
+            }
+        }
+        //覆寫 ToString 方法
         public override string ToString()
         {
             return "No = " + No.ToString()+
