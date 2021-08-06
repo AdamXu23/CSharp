@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Chapter5_Class.Class
+namespace Chapter05_Class.Class
 {
     delegate void DangerEvent(int vMax_Speed, int vSpeed);//宣告DangerEvent委派
     class Car
