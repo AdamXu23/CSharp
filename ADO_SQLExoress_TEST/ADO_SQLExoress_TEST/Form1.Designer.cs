@@ -31,15 +31,22 @@ namespace ADO_SQLExoress_TEST
         {
             this.Open_button = new System.Windows.Forms.Button();
             this.SQL_LOG = new System.Windows.Forms.TextBox();
-            this.Read_All_button = new System.Windows.Forms.Button();
+            this.SQL_SELECT_button = new System.Windows.Forms.Button();
             this.SQL_DATA = new System.Windows.Forms.DataGridView();
+            this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.SQL_IN_button = new System.Windows.Forms.Button();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
             ((System.ComponentModel.ISupportInitialize)(this.SQL_DATA)).BeginInit();
+            this.tabControl1.SuspendLayout();
+            this.tabPage1.SuspendLayout();
             this.SuspendLayout();
             // 
             // Open_button
             // 
-            this.Open_button.Font = new System.Drawing.Font("SimSun", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.Open_button.Location = new System.Drawing.Point(882, 12);
+            this.Open_button.Font = new System.Drawing.Font("SimSun", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.Open_button.Location = new System.Drawing.Point(571, 12);
             this.Open_button.Name = "Open_button";
             this.Open_button.Size = new System.Drawing.Size(148, 53);
             this.Open_button.TabIndex = 0;
@@ -50,23 +57,23 @@ namespace ADO_SQLExoress_TEST
             // SQL_LOG
             // 
             this.SQL_LOG.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SQL_LOG.Location = new System.Drawing.Point(12, 451);
+            this.SQL_LOG.Location = new System.Drawing.Point(12, 665);
             this.SQL_LOG.Multiline = true;
             this.SQL_LOG.Name = "SQL_LOG";
             this.SQL_LOG.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.SQL_LOG.Size = new System.Drawing.Size(1018, 367);
+            this.SQL_LOG.Size = new System.Drawing.Size(1018, 153);
             this.SQL_LOG.TabIndex = 1;
             // 
-            // Read_All_button
+            // SQL_SELECT_button
             // 
-            this.Read_All_button.Font = new System.Drawing.Font("SimSun", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.Read_All_button.Location = new System.Drawing.Point(882, 71);
-            this.Read_All_button.Name = "Read_All_button";
-            this.Read_All_button.Size = new System.Drawing.Size(148, 53);
-            this.Read_All_button.TabIndex = 2;
-            this.Read_All_button.Text = "Read All";
-            this.Read_All_button.UseVisualStyleBackColor = true;
-            this.Read_All_button.Click += new System.EventHandler(this.Read_All_button_Click);
+            this.SQL_SELECT_button.Font = new System.Drawing.Font("SimSun", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.SQL_SELECT_button.Location = new System.Drawing.Point(3, 6);
+            this.SQL_SELECT_button.Name = "SQL_SELECT_button";
+            this.SQL_SELECT_button.Size = new System.Drawing.Size(148, 53);
+            this.SQL_SELECT_button.TabIndex = 2;
+            this.SQL_SELECT_button.Text = "SQL SELECT";
+            this.SQL_SELECT_button.UseVisualStyleBackColor = true;
+            this.SQL_SELECT_button.Click += new System.EventHandler(this.Read_All_button_Click);
             // 
             // SQL_DATA
             // 
@@ -74,22 +81,78 @@ namespace ADO_SQLExoress_TEST
             this.SQL_DATA.Location = new System.Drawing.Point(12, 12);
             this.SQL_DATA.Name = "SQL_DATA";
             this.SQL_DATA.RowTemplate.Height = 23;
-            this.SQL_DATA.Size = new System.Drawing.Size(553, 426);
+            this.SQL_DATA.Size = new System.Drawing.Size(553, 647);
             this.SQL_DATA.TabIndex = 3;
+            // 
+            // tabControl1
+            // 
+            this.tabControl1.Controls.Add(this.tabPage1);
+            this.tabControl1.Controls.Add(this.tabPage2);
+            this.tabControl1.Controls.Add(this.tabPage3);
+            this.tabControl1.Location = new System.Drawing.Point(571, 73);
+            this.tabControl1.Name = "tabControl1";
+            this.tabControl1.SelectedIndex = 0;
+            this.tabControl1.Size = new System.Drawing.Size(459, 586);
+            this.tabControl1.TabIndex = 4;
+            // 
+            // tabPage1
+            // 
+            this.tabPage1.Controls.Add(this.SQL_IN_button);
+            this.tabPage1.Controls.Add(this.SQL_SELECT_button);
+            this.tabPage1.Location = new System.Drawing.Point(4, 22);
+            this.tabPage1.Name = "tabPage1";
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage1.Size = new System.Drawing.Size(451, 560);
+            this.tabPage1.TabIndex = 0;
+            this.tabPage1.Text = "tabPage1";
+            this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // tabPage2
+            // 
+            this.tabPage2.Location = new System.Drawing.Point(4, 22);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(192, 74);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "tabPage2";
+            this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // SQL_IN_button
+            // 
+            this.SQL_IN_button.Font = new System.Drawing.Font("SimSun", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.SQL_IN_button.Location = new System.Drawing.Point(3, 65);
+            this.SQL_IN_button.Name = "SQL_IN_button";
+            this.SQL_IN_button.Size = new System.Drawing.Size(148, 53);
+            this.SQL_IN_button.TabIndex = 3;
+            this.SQL_IN_button.Text = "SQL IN";
+            this.SQL_IN_button.UseVisualStyleBackColor = true;
+            this.SQL_IN_button.Click += new System.EventHandler(this.SQL_IN_button_Click);
+            // 
+            // tabPage3
+            // 
+            this.tabPage3.Location = new System.Drawing.Point(4, 22);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage3.Size = new System.Drawing.Size(451, 339);
+            this.tabPage3.TabIndex = 2;
+            this.tabPage3.Text = "tabPage3";
+            this.tabPage3.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1042, 830);
-            this.Controls.Add(this.SQL_DATA);
-            this.Controls.Add(this.Read_All_button);
-            this.Controls.Add(this.SQL_LOG);
+            this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.Open_button);
+            this.Controls.Add(this.SQL_DATA);
+            this.Controls.Add(this.SQL_LOG);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.SQL_DATA)).EndInit();
+            this.tabControl1.ResumeLayout(false);
+            this.tabPage1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -99,8 +162,13 @@ namespace ADO_SQLExoress_TEST
 
         private System.Windows.Forms.Button Open_button;
         private System.Windows.Forms.TextBox SQL_LOG;
-        private System.Windows.Forms.Button Read_All_button;
+        private System.Windows.Forms.Button SQL_SELECT_button;
         private System.Windows.Forms.DataGridView SQL_DATA;
+        private System.Windows.Forms.TabControl tabControl1;
+        private System.Windows.Forms.TabPage tabPage1;
+        private System.Windows.Forms.TabPage tabPage2;
+        private System.Windows.Forms.Button SQL_IN_button;
+        private System.Windows.Forms.TabPage tabPage3;
     }
 }
 

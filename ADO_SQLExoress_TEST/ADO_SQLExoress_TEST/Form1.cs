@@ -112,5 +112,52 @@ namespace ADO_SQLExoress_TEST
 
             }
         }
+
+        private void SQL_IN_button_Click(object sender, EventArgs e)
+        {
+            //創建讀取Staff資料表的CMD
+            SqlCommand cmd = new SqlCommand("SELECT * FROM Staff WHERE Staff_ID IN (\'IT003\', \'DA001\');", cn);
+            //判斷資料庫是否鏈接
+            if (cn.State == ConnectionState.Open)
+            {
+                //讀取資料
+                SqlDataReader dr = cmd.ExecuteReader();
+                //創建 DataTable 物件為 SoccerDataTable 
+                DataTable SoccerDataTable = new DataTable();
+                //把讀取到的資料 Load 到 SoccerDataTable
+                SoccerDataTable.Load(dr);
+                //輸出到DataGridView
+                SQL_DATA.DataSource = SoccerDataTable;
+                //輸出讀取時間
+                SQL_LOG.AppendText(DateTime.Now.ToString() + Environment.NewLine);
+                //輸出讀取命令
+                SQL_LOG.AppendText("CMD\t\t:" + cmd.CommandText + Environment.NewLine);
+                //輸出欄位内容
+                /*
+                string Field_Content_Str = string.Empty;
+                for (int i = 0; i < dr.FieldCount; i++)
+                {
+                    Field_Content_Str += dr.GetName(i) + "\t";
+                }
+                SQL_LOG.AppendText(Field_Content_Str + Environment.NewLine + Environment.NewLine);
+                Field_Content_Str = string.Empty;
+                while (dr.Read())
+                {
+                    for(int i = 0;i<dr.FieldCount;i++)
+                    {
+                        Field_Content_Str += dr[i].ToString() + "\t";
+                    }
+                    SQL_LOG.AppendText(Field_Content_Str + Environment.NewLine + Environment.NewLine);
+                }
+                */
+            }
+            else
+            {
+                SQL_LOG.AppendText(DateTime.Now.ToString() + Environment.NewLine);
+                SQL_LOG.AppendText("Error\t\t:Database disconnected." + Environment.NewLine);
+                SQL_LOG.AppendText("CMD\t\t:" + cmd.CommandText + Environment.NewLine);
+
+            }
+        }
     }
 }
