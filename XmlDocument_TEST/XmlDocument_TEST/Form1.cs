@@ -14,12 +14,13 @@ namespace XmlDocument_TEST
 {
     public partial class Form1 : Form
     {
+        string xmlName = "Port_Info.xml";
         XmlDocument xmlDoc = new XmlDocument();
         public Form1()
         {
             InitializeComponent();
             XML_Read_All();
-            xmlDoc.Load("bookstore.xml");
+            xmlDoc.Load(xmlName);
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -35,7 +36,7 @@ namespace XmlDocument_TEST
         private void XML_Read_All()
         {
             //檢查有沒有這個文件
-            if (File.Exists("Port_Info.xml"))
+            if (File.Exists(xmlName))
             {
                 ds = new DataSet();
                 //創建 dc 屬於DataColumn物件，
@@ -43,7 +44,7 @@ namespace XmlDocument_TEST
                 //清空DataSet物件
                 ds.Clear();
                 //讀取XML_TEST.xml文件
-                ds.ReadXml("Port_Info.xml");
+                ds.ReadXml(xmlName);
                 //在dataGridView1上顯示XML_TEST中item類別的項目
                 dataGridView1.DataSource = ds.Tables["item"];
 
@@ -58,10 +59,9 @@ namespace XmlDocument_TEST
         {
             //插入節點
             
-            XmlNode root = xmlDoc.SelectSingleNode("bookstore");//查詢
-            XmlElement xe1 = xmlDoc.CreateElement("book");//建立一個節點
-            xe1.SetAttribute("genre", "李贊紅");//設定該節點genre屬性
-            xe1.SetAttribute("ISBN", "1123456789");//設定該節點ISBN屬性
+            XmlNode root = xmlDoc.SelectSingleNode("commodity");//查詢
+            XmlElement xe1 = xmlDoc.CreateElement("Port");//建立一個節點
+            xe1.SetAttribute("ID", "李贊紅");//設定該節點ID屬性
 
             XmlElement xesub1 = xmlDoc.CreateElement("title");
             xesub1.InnerText = "CS從入門到精通";//設定文字節點
@@ -74,13 +74,13 @@ namespace XmlDocument_TEST
             xe1.AppendChild(xesub3);
 
             root.AppendChild(xe1);//新增到節點中
-            xmlDoc.Save("bookstore.xml");
+            xmlDoc.Save(xmlName);
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             //修改節點
-            XmlNodeList nodeList = xmlDoc.SelectSingleNode("bookstore").ChildNodes;//獲取bookstore節點的所有子節點
+            XmlNodeList nodeList = xmlDoc.SelectSingleNode("commodity").ChildNodes;//獲取bookstore節點的所有子節點
             foreach (XmlNode xn in nodeList)//遍歷所有子節點
             {
                 XmlElement xe = (XmlElement)xn;//將子節點型別轉換為XmlElement型別
@@ -101,13 +101,13 @@ namespace XmlDocument_TEST
                     break;
                 }
             }
-            xmlDoc.Save("bookstore.xml");//儲存。
+            xmlDoc.Save(xmlName);//儲存。
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             //刪除節點
-            XmlNodeList xnl = xmlDoc.SelectSingleNode("bookstore").ChildNodes;
+            XmlNodeList xnl = xmlDoc.SelectSingleNode("commodity").ChildNodes;
 
             foreach (XmlNode xn in xnl)
             {
@@ -122,7 +122,7 @@ namespace XmlDocument_TEST
                     xe.RemoveAll();//刪除該節點的全部內容
                 }
             }
-            xmlDoc.Save("bookstore.xml");
+            xmlDoc.Save(xmlName);
         }
     }
 }

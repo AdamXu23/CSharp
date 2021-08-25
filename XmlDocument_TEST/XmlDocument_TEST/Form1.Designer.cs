@@ -46,7 +46,7 @@ namespace XmlDocument_TEST
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(53, 455);
+            this.button1.Location = new System.Drawing.Point(242, 473);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 1;
@@ -56,7 +56,7 @@ namespace XmlDocument_TEST
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(165, 455);
+            this.button2.Location = new System.Drawing.Point(354, 473);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 1;
@@ -66,7 +66,7 @@ namespace XmlDocument_TEST
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(265, 455);
+            this.button3.Location = new System.Drawing.Point(454, 473);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 23);
             this.button3.TabIndex = 1;
