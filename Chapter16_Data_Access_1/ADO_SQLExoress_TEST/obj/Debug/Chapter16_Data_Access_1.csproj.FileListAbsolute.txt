@@ -1,6 +1,5 @@
 C:\Users\Administrator\Documents\GitHub\CSharp\Chapter16_Data_Access_1\ADO_SQLExoress_TEST\bin\Debug\MyDB.mdf
 C:\Users\Administrator\Documents\GitHub\CSharp\Chapter16_Data_Access_1\ADO_SQLExoress_TEST\bin\Debug\MyDB_log.ldf
-C:\Users\Administrator\Documents\GitHub\CSharp\Chapter16_Data_Access_1\ADO_SQLExoress_TEST\obj\Debug\Chapter16_Data_Access_1.csproj.AssemblyReference.cache
 C:\Users\Administrator\Documents\GitHub\CSharp\Chapter16_Data_Access_1\ADO_SQLExoress_TEST\obj\Debug\ADO_SQLExoress_TEST.Form1.resources
 C:\Users\Administrator\Documents\GitHub\CSharp\Chapter16_Data_Access_1\ADO_SQLExoress_TEST\obj\Debug\Chapter16_Data_Access_1.csproj.GenerateResource.cache
 C:\Users\Administrator\Documents\GitHub\CSharp\Chapter16_Data_Access_1\ADO_SQLExoress_TEST\obj\Debug\Chapter16_Data_Access_1.csproj.CoreCompileInputs.cache

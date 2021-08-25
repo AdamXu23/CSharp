@@ -22,7 +22,7 @@ namespace ADO_SQLExoress_TEST
         }
         //建立SqlConnection物件
         SqlConnection cn = new SqlConnection();
-
+        //VScrollProperties
         //顯示連綫參數
         private void ShowConnection()
         {
@@ -37,8 +37,9 @@ namespace ADO_SQLExoress_TEST
         {
             //創建鏈接字串
             cn.ConnectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Administrator\Documents\GitHub\CSharp\Chapter16_Data_Access_1\ADO_SQLExoress_TEST\MyDB.mdf;Integrated Security=True";
-            //顯示鏈接參數
-            ShowConnection();
+            
+           //顯示鏈接參數
+           ShowConnection();
         }
 
         private void Open_button_Click(object sender, EventArgs e)

@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // 組件的一般資訊是由下列的屬性集控制。
 // 變更這些屬性的值即可修改組件的相關
 // 資訊。
-[assembly: AssemblyTitle("Chapter15_Data_Access_1")]
+[assembly: AssemblyTitle("XmlDocument_TEST")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Chapter15_Data_Access_1")]
+[assembly: AssemblyProduct("XmlDocument_TEST")]
 [assembly: AssemblyCopyright("Copyright ©  2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // 下列 GUID 為專案公開 (Expose) 至 COM 時所要使用的 typelib ID
-[assembly: Guid("8e019a2d-bace-46ce-921d-b152d7bcbf22")]
+[assembly: Guid("9489aa00-cdf6-410f-b33c-e18c37c6a3a7")]
 
 // 組件的版本資訊由下列四個值所組成: 
 //

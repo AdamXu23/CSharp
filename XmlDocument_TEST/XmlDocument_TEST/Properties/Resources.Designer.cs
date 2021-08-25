@@ -9,7 +9,7 @@
 //------------------------------------------------------------------------------
 
 
-namespace Chapter15_Data_Access_1.Properties
+namespace XmlDocument_TEST.Properties
 {
     /// <summary>
     ///   用於查詢當地語系化字串等的強類型資源類別
@@ -43,7 +43,7 @@ namespace Chapter15_Data_Access_1.Properties
             {
                 if ((resourceMan == null))
                 {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Chapter15_Data_Access_1.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("XmlDocument_TEST.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

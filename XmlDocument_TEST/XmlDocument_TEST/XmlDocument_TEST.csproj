@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8E019A2D-BACE-46CE-921D-B152D7BCBF22}</ProjectGuid>
+    <ProjectGuid>{9489AA00-CDF6-410F-B33C-E18C37C6A3A7}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Chapter15_Data_Access_1</RootNamespace>
-    <AssemblyName>Chapter15_Data_Access_1</AssemblyName>
+    <RootNamespace>XmlDocument_TEST</RootNamespace>
+    <AssemblyName>XmlDocument_TEST</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -54,6 +54,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

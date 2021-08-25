@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<bookstore>
+  <book genre="李贊紅" ISBN="1123456789">
+    <title>CS從入門到精通</title>
+    <author>候捷</author>
+    <price>58.3</price>
+  </book>
+  <book genre="李贊紅" ISBN="1123456789">
+    <title>CS從入門到精通</title>
+    <author>候捷</author>
+    <price>58.3</price>
+  </book>
+</bookstore>

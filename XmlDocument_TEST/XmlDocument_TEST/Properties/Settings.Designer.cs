@@ -9,7 +9,7 @@
 //------------------------------------------------------------------------------
 
 
-namespace Chapter15_Data_Access_1.Properties
+namespace XmlDocument_TEST.Properties
 {
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "11.0.0.0")]
