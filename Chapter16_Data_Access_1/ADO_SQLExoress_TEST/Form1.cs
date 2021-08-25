@@ -36,7 +36,7 @@ namespace ADO_SQLExoress_TEST
         private void Form1_Load(object sender, EventArgs e)
         {
             //創建鏈接字串
-            cn.ConnectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Administrator\Documents\GitHub\CSharp\Chapter16_DATA_1\ADO_SQLExoress_TEST\MyDB.mdf;Integrated Security=True";
+            cn.ConnectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Administrator\Documents\GitHub\CSharp\Chapter16_Data_Access_1\ADO_SQLExoress_TEST\MyDB.mdf;Integrated Security=True";
             //顯示鏈接參數
             ShowConnection();
         }
@@ -84,25 +84,7 @@ namespace ADO_SQLExoress_TEST
                 //輸出讀取時間
                 SQL_LOG.AppendText(DateTime.Now.ToString() + Environment.NewLine);
                 //輸出讀取命令
-                SQL_LOG.AppendText("CMD\t\t:" + cmd.CommandText + Environment.NewLine);
-                //輸出欄位内容
-                /*
-                string Field_Content_Str = string.Empty;
-                for (int i = 0; i < dr.FieldCount; i++)
-                {
-                    Field_Content_Str += dr.GetName(i) + "\t";
-                }
-                SQL_LOG.AppendText(Field_Content_Str + Environment.NewLine + Environment.NewLine);
-                Field_Content_Str = string.Empty;
-                while (dr.Read())
-                {
-                    for(int i = 0;i<dr.FieldCount;i++)
-                    {
-                        Field_Content_Str += dr[i].ToString() + "\t";
-                    }
-                    SQL_LOG.AppendText(Field_Content_Str + Environment.NewLine + Environment.NewLine);
-                }
-                */
+                SQL_LOG.AppendText("CMD\t\t:" + cmd.CommandText + Environment.NewLine); 
             }
             else
             {
@@ -132,24 +114,6 @@ namespace ADO_SQLExoress_TEST
                 SQL_LOG.AppendText(DateTime.Now.ToString() + Environment.NewLine);
                 //輸出讀取命令
                 SQL_LOG.AppendText("CMD\t\t:" + cmd.CommandText + Environment.NewLine);
-                //輸出欄位内容
-                /*
-                string Field_Content_Str = string.Empty;
-                for (int i = 0; i < dr.FieldCount; i++)
-                {
-                    Field_Content_Str += dr.GetName(i) + "\t";
-                }
-                SQL_LOG.AppendText(Field_Content_Str + Environment.NewLine + Environment.NewLine);
-                Field_Content_Str = string.Empty;
-                while (dr.Read())
-                {
-                    for(int i = 0;i<dr.FieldCount;i++)
-                    {
-                        Field_Content_Str += dr[i].ToString() + "\t";
-                    }
-                    SQL_LOG.AppendText(Field_Content_Str + Environment.NewLine + Environment.NewLine);
-                }
-                */
             }
             else
             {
