@@ -36,7 +36,7 @@ namespace ADO_SQLExoress_TEST
         private void Form1_Load(object sender, EventArgs e)
         {
             //創建鏈接字串
-            cn.ConnectionString = "Data Source = (LocalDB)\\MSSQLLocalDB; AttachDbFilename = C:\\Users\\Administrator\\Documents\\GitHub\\CSharp\\ADO_SQLExoress_TEST\\ADO_SQLExoress_TEST\\MyDB.mdf; Integrated Security = True";
+            cn.ConnectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Administrator\Documents\GitHub\CSharp\Chapter16_DATA_1\ADO_SQLExoress_TEST\MyDB.mdf;Integrated Security=True";
             //顯示鏈接參數
             ShowConnection();
         }
