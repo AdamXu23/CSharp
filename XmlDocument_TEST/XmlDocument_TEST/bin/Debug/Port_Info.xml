@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <commodity>
-  <item ID = 001>
+  <item ID = "001">
     <ID>001</ID>
     <EQ>SOHC000</EQ>
     <Name>001</Name>
@@ -13,7 +13,7 @@
     <color_G>74</color_G>
     <color_B>23</color_B>
   </item>
-  <item ID = 002>
+  <item ID = "002">
     <ID>002</ID>
     <EQ>SOHC000</EQ>
     <Name>002</Name>

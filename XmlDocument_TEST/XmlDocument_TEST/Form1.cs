@@ -19,7 +19,7 @@ namespace XmlDocument_TEST
         public Form1()
         {
             InitializeComponent();
-            XML_Read_All();
+            //XML_Read_All();
             xmlDoc.Load(xmlName);
         }
 
@@ -81,6 +81,9 @@ namespace XmlDocument_TEST
         {
             //修改節點
             XmlNodeList nodeList = xmlDoc.SelectSingleNode("commodity").ChildNodes;//獲取bookstore節點的所有子節點
+
+            XmlNode node = xmlDoc.SelectSingleNode("commodity/item[@ID=\"" + ID_TextBox.Text + "\"]");/*查詢的條件Area=‘河北‘ 或者 ExpreName=‘圓通‘*/
+
             foreach (XmlNode xn in nodeList)//遍歷所有子節點
             {
                 XmlElement xe = (XmlElement)xn;//將子節點型別轉換為XmlElement型別
