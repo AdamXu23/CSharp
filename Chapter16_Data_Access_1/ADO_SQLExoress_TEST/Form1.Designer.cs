@@ -46,7 +46,7 @@ namespace ADO_SQLExoress_TEST
             // Open_button
             // 
             this.Open_button.Font = new System.Drawing.Font("SimSun", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.Open_button.Location = new System.Drawing.Point(571, 13);
+            this.Open_button.Location = new System.Drawing.Point(878, 13);
             this.Open_button.Name = "Open_button";
             this.Open_button.Size = new System.Drawing.Size(148, 57);
             this.Open_button.TabIndex = 0;
@@ -89,10 +89,10 @@ namespace ADO_SQLExoress_TEST
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage2);
             this.tabControl1.Controls.Add(this.tabPage3);
-            this.tabControl1.Location = new System.Drawing.Point(571, 79);
+            this.tabControl1.Location = new System.Drawing.Point(571, 98);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(459, 635);
+            this.tabControl1.Size = new System.Drawing.Size(459, 616);
             this.tabControl1.TabIndex = 4;
             // 
             // tabPage1
@@ -102,7 +102,7 @@ namespace ADO_SQLExoress_TEST
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(451, 609);
+            this.tabPage1.Size = new System.Drawing.Size(451, 590);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "tabPage1";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -148,7 +148,7 @@ namespace ADO_SQLExoress_TEST
             this.Controls.Add(this.SQL_DATA);
             this.Controls.Add(this.SQL_LOG);
             this.Name = "Form1";
-            this.Text = "44444444444444444t";
+            this.Text = "Chapter16_Data_Access_1";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.SQL_DATA)).EndInit();
             this.tabControl1.ResumeLayout(false);
