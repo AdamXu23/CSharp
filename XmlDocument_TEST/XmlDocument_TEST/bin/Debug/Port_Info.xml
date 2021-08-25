@@ -1,0 +1,29 @@
+<?xml version="1.0" standalone="yes"?>
+<commodity>
+  <item>
+    <ID>001</ID>
+    <EQ>SOHC000</EQ>
+    <Name>001</Name>
+    <IP>192.168.127.002</IP>
+    <Port>502</Port>
+    <O2_Enable>True</O2_Enable>
+    <RH_Enable>True</RH_Enable>
+    <color_A>255</color_A>
+    <color_R>15</color_R>
+    <color_G>74</color_G>
+    <color_B>23</color_B>
+  </item>
+  <item>
+    <ID>002</ID>
+    <EQ>SOHC000</EQ>
+    <Name>002</Name>
+    <IP>192.168.127.004</IP>
+    <Port>502</Port>
+    <O2_Enable>True</O2_Enable>
+    <RH_Enable>True</RH_Enable>
+    <color_A>255</color_A>
+    <color_R>128</color_R>
+    <color_G>64</color_G>
+    <color_B>0</color_B>
+  </item>
+</commodity>
