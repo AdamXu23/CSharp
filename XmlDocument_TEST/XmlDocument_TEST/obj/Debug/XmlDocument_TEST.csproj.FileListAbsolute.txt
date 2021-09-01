@@ -8,3 +8,5 @@ C:\Users\Administrator\Documents\GitHub\CSharp\XmlDocument_TEST\XmlDocument_TEST
 C:\Users\Administrator\Documents\GitHub\CSharp\XmlDocument_TEST\XmlDocument_TEST\obj\Debug\XmlDocument_TEST.csproj.CoreCompileInputs.cache
 C:\Users\Administrator\Documents\GitHub\CSharp\XmlDocument_TEST\XmlDocument_TEST\obj\Debug\XmlDocument_TEST.exe
 C:\Users\Administrator\Documents\GitHub\CSharp\XmlDocument_TEST\XmlDocument_TEST\obj\Debug\XmlDocument_TEST.pdb
+C:\Users\Administrator\Documents\GitHub\CSharp\XmlDocument_TEST\XmlDocument_TEST\bin\Debug\WinSECS.dll
+C:\Users\Administrator\Documents\GitHub\CSharp\XmlDocument_TEST\XmlDocument_TEST\obj\Debug\XmlDocument_TEST.csproj.CopyComplete

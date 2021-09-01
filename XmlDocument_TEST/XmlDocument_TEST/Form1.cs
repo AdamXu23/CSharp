@@ -9,18 +9,114 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml;
 using System.IO;
+using Brooks.WinSECS;
 
 namespace XmlDocument_TEST
 {
     public partial class Form1 : Form
     {
-        string xmlName = "Port_Info.xml";
-        XmlDocument xmlDoc = new XmlDocument();
+        string xmlName = "Parameters.xml";
+        XmlDocument document = new XmlDocument();
         public Form1()
         {
             InitializeComponent();
             //XML_Read_All();
-            xmlDoc.Load(xmlName);
+            bool result = File.Exists(xmlName);
+            if (result == true)
+            {
+            }
+            else
+            {
+                XmlDeclaration declaration = document.CreateXmlDeclaration("1.0", "UTF-8", "");//xml文件的宣告部分
+                document.AppendChild(declaration);
+
+                XmlElement Parameters = document.CreateElement("Parameters");
+                document.AppendChild(Parameters);
+
+                XmlElement SECS = document.CreateElement("SECS");
+                Parameters.AppendChild(SECS);//新增到 Parameters 節點中
+
+                XmlElement HSMS = document.CreateElement("HSMS");
+                SECS.AppendChild(HSMS);//新增到 SECS 節點中
+
+                XmlElement General = document.CreateElement("General");
+                SECS.AppendChild(General);//新增到 SECS 節點中
+
+                XmlElement AutoDevice = document.CreateElement("AutoDevice");
+                AutoDevice.InnerText = true.ToString();
+                General.AppendChild(AutoDevice);//新增到 SECS 節點中
+
+                XmlElement SECS_MonitorEnabled = document.CreateElement("MonitorEnabled");
+                SECS_MonitorEnabled.InnerText = false.ToString();
+                General.AppendChild(SECS_MonitorEnabled);//新增到 SECS 節點中
+
+                XmlElement SECS_MultipleOpen = document.CreateElement("MultipleOpen");
+                SECS_MultipleOpen.InnerText = true.ToString();
+                General.AppendChild(SECS_MultipleOpen);//新增到 SECS 節點中
+
+                XmlElement SECS_PortType = document.CreateElement("PortType");
+                SECS_PortType.InnerText = SECS_PORT_TYPE.HSMS.ToString();
+                General.AppendChild(SECS_PortType);//新增到 SECS 節點中
+
+                XmlElement SECS_DefaultDeviceID = document.CreateElement("DefaultDeviceID");
+                long DefaultDeviceID = 0;
+                SECS_DefaultDeviceID.InnerText = DefaultDeviceID.ToString();
+                General.AppendChild(SECS_DefaultDeviceID);//新增到 SECS 節點中
+
+                XmlElement SECS_T3 = document.CreateElement("T3");
+                uint T = 45;
+                SECS_T3.InnerText = T.ToString();
+                HSMS.AppendChild(SECS_T3);//新增到 SECS 節點中
+
+                XmlElement SECS_T5 = document.CreateElement("T5");
+                T = 10;
+                SECS_T5.InnerText = T.ToString();
+                HSMS.AppendChild(SECS_T5);//新增到 SECS 節點中
+
+                XmlElement SECS_T6 = document.CreateElement("T6");
+                T = 5;
+                SECS_T6.InnerText = T.ToString();
+                HSMS.AppendChild(SECS_T6);//新增到 SECS 節點中
+
+                XmlElement SECS_T7 = document.CreateElement("T7");
+                T = 10;
+                SECS_T7.InnerText = T.ToString();
+                HSMS.AppendChild(SECS_T7);//新增到 SECS 節點中
+
+                XmlElement SECS_T8 = document.CreateElement("T8");
+                T = 5;
+                SECS_T8.InnerText = T.ToString();
+                HSMS.AppendChild(SECS_T8);//新增到 SECS 節點中
+
+                XmlElement SECS_ConnectionMode = document.CreateElement("ConnectionMode");
+                SECS_ConnectionMode.InnerText = HSMS_CONNECTION_MODE.PASSIVE.ToString();
+                HSMS.AppendChild(SECS_ConnectionMode);//新增到 SECS 節點中
+
+                XmlElement SECS_LocalIPAddress = document.CreateElement("LocalIPAddress");
+                SECS_LocalIPAddress.InnerText = "127.0.0.1";
+                HSMS.AppendChild(SECS_LocalIPAddress);//新增到 SECS 節點中
+
+                XmlElement SECS_RemoteIPAddress = document.CreateElement("RemoteIPAddress");
+                SECS_RemoteIPAddress.InnerText = "127.0.0.1";
+                HSMS.AppendChild(SECS_RemoteIPAddress);//新增到 SECS 節點中
+
+                XmlElement SECS_LocalIPPort = document.CreateElement("LocalIPPort");
+                uint port = 5100;
+                SECS_LocalIPPort.InnerText = port.ToString();
+                HSMS.AppendChild(SECS_LocalIPPort);//新增到 SECS 節點中
+
+                XmlElement SECS_RemoteIPPort = document.CreateElement("RemoteIPPort");
+                SECS_RemoteIPPort.InnerText = port.ToString();
+                HSMS.AppendChild(SECS_RemoteIPPort);//新增到 SECS 節點中
+
+                XmlElement SECS_LinkTestTimer = document.CreateElement("LinkTestTimer");
+                long Slt = 60;
+                SECS_LinkTestTimer.InnerText = Slt.ToString();
+                HSMS.AppendChild(SECS_LinkTestTimer);//新增到 SECS 節點中
+
+                document.Save(xmlName);//將生成好的xml儲存到test.xml檔案中
+            }
+
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -29,103 +125,19 @@ namespace XmlDocument_TEST
         }
 
 
-        //創建 ds 屬-於DataSet物件
-        DataSet ds = new DataSet();
-        //創建 dc 屬於DataColumn物件，
-        DataColumn dc = new DataColumn();
-        private void XML_Read_All()
-        {
-            //檢查有沒有這個文件
-            if (File.Exists(xmlName))
-            {
-                ds = new DataSet();
-                //創建 dc 屬於DataColumn物件，
-                dc = new DataColumn();
-                //清空DataSet物件
-                ds.Clear();
-                //讀取XML_TEST.xml文件
-                ds.ReadXml(xmlName);
-                //在dataGridView1上顯示XML_TEST中item類別的項目
-                dataGridView1.DataSource = ds.Tables["item"];
-
-            }
-            else
-            {
-                MessageBox.Show("Can't find file");
-            }
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
-            //插入節點
-            
-            XmlNode root = xmlDoc.SelectSingleNode("commodity");//查詢
-            XmlElement xe1 = xmlDoc.CreateElement("Port");//建立一個節點
-            xe1.SetAttribute("ID", "李贊紅");//設定該節點ID屬性
 
-            XmlElement xesub1 = xmlDoc.CreateElement("title");
-            xesub1.InnerText = "CS從入門到精通";//設定文字節點
-            xe1.AppendChild(xesub1);//新增到節點中
-            XmlElement xesub2 = xmlDoc.CreateElement("author");
-            xesub2.InnerText = "候捷";
-            xe1.AppendChild(xesub2);
-            XmlElement xesub3 = xmlDoc.CreateElement("price");
-            xesub3.InnerText = "58.3";
-            xe1.AppendChild(xesub3);
-
-            root.AppendChild(xe1);//新增到節點中
-            xmlDoc.Save(xmlName);
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            //修改節點
-            XmlNodeList nodeList = xmlDoc.SelectSingleNode("commodity").ChildNodes;//獲取bookstore節點的所有子節點
 
-            XmlNode node = xmlDoc.SelectSingleNode("commodity/item[@ID=\"" + ID_TextBox.Text + "\"]");/*查詢的條件Area=‘河北‘ 或者 ExpreName=‘圓通‘*/
-
-            foreach (XmlNode xn in nodeList)//遍歷所有子節點
-            {
-                XmlElement xe = (XmlElement)xn;//將子節點型別轉換為XmlElement型別
-                if (xe.GetAttribute("genre") == "李贊紅")//如果genre屬性值為"李贊紅"
-                {
-                    xe.SetAttribute("genre", "update李贊紅");//則修改該屬性為"update李贊紅"
-
-                    XmlNodeList nls = xe.ChildNodes;//繼續獲取xe子節點的所有子節點
-                    foreach (XmlNode xn1 in nls)//遍歷
-                    {
-                        XmlElement xe2 = (XmlElement)xn1;//轉換型別
-                        if (xe2.Name == "author")//如果找到
-                        {
-                            xe2.InnerText = "亞勝";//則修改
-                            break;//找到退出來就可以了
-                        }
-                    }
-                    break;
-                }
-            }
-            xmlDoc.Save(xmlName);//儲存。
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            //刪除節點
-            XmlNodeList xnl = xmlDoc.SelectSingleNode("commodity").ChildNodes;
 
-            foreach (XmlNode xn in xnl)
-            {
-                XmlElement xe = (XmlElement)xn;
-                if (xe.GetAttribute("genre") == "fantasy")
-                {
-                    //刪除genre屬性
-                    xe.RemoveAttribute("genre");
-                }
-                else if (xe.GetAttribute("genre") == "update李贊紅")
-                {
-                    xe.RemoveAll();//刪除該節點的全部內容
-                }
-            }
-            xmlDoc.Save(xmlName);
         }
     }
 }
