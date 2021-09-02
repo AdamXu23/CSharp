@@ -14,14 +14,14 @@ namespace XmlDocument_TEST
 
         private string xmlName = "Parameters.xml";
         private XmlDocument document = new XmlDocument();
-        private XmlNode Parameters_NODE;
+        private XmlNode System_NODE;
         private XmlNode SECS_Node;
         private XmlNode General_Node;
         public _General(XmlDocument _XmlDocument, string _xmlName)
         {
             document = _XmlDocument;
-            Parameters_NODE = document.SelectSingleNode("Parameters");
-            SECS_Node = Parameters_NODE.SelectSingleNode("SECS");
+            System_NODE = document.SelectSingleNode("System");
+            SECS_Node = System_NODE.SelectSingleNode("SECS");
             General_Node = SECS_Node.SelectSingleNode("General");
             if (General_Node == null)
             {

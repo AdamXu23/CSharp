@@ -12,20 +12,20 @@ namespace XmlDocument_TEST
     {
         private string xmlName = "Parameters.xml";
         private XmlDocument document = new XmlDocument();
-        private XmlNode Parameters_NODE;
+        private XmlNode System_NODE;
         private XmlNode SECS_Node;
         public _HSMS HSMS;
         public _General General;
         public _SECS(XmlDocument _XmlDocument, string _xmlName)
         {
             document = _XmlDocument;
-            Parameters_NODE = document.SelectSingleNode("Parameters");
-            SECS_Node = Parameters_NODE.SelectSingleNode("SECS");
+            System_NODE = document.SelectSingleNode("System");
+            SECS_Node = System_NODE.SelectSingleNode("SECS");
             if (SECS_Node == null)
             {
 
                 SECS_Node = document.CreateElement("SECS");
-                Parameters_NODE.AppendChild(SECS_Node);//新增到 Parameters 節點中
+                System_NODE.AppendChild(SECS_Node);//新增到 Parameters 節點中
                 document.Save(xmlName);//將生成好的xml儲存到test.xml檔案中
             }
             HSMS = new _HSMS(document, xmlName);

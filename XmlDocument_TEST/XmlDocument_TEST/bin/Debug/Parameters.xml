@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Parameters>
+<System>
   <SECS>
     <HSMS>
       <T3>45</T3>
@@ -22,4 +22,5 @@
       <DefaultDeviceID>0</DefaultDeviceID>
     </General>
   </SECS>
-</Parameters>
+  <EQ_MDLN>Please modify EQ_MDLN</EQ_MDLN>
+</System>

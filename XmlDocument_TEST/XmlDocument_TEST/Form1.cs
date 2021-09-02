@@ -32,10 +32,14 @@ namespace XmlDocument_TEST
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            System_Load();
             General_Load();
             HSMS_Load();
         }
-
+        private void System_Load()
+        {
+            EQ_MDLN_TextBox.Text = Parameters.EQ_MDLN;
+        }
         private void General_Load()
         {
             AutoDevice_CB.Checked = Parameters.SECS.General.AutoDevice;

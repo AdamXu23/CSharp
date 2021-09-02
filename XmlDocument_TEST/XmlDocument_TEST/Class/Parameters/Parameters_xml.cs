@@ -14,7 +14,7 @@ namespace XmlDocument_TEST
     {
         private string xmlName = "Parameters.xml";
         private XmlDocument document = new XmlDocument() ;
-        private XmlNode Parameters_NODE;
+        private XmlNode System_NODE;
         private XmlDeclaration declaration;
         public _SECS SECS;
         public Parameters_xml(string _xmlName)
@@ -38,16 +38,39 @@ namespace XmlDocument_TEST
                 {
                     declaration.Encoding = "UTF-8";
                 }
-                Parameters_NODE = document.SelectSingleNode("Parameters");
-                if (Parameters_NODE == null)
+                System_NODE = document.SelectSingleNode("System");
+                if (System_NODE == null)
                 {
-                    Parameters_NODE = document.CreateElement("Parameters");
-                    document.AppendChild(Parameters_NODE);
+                    System_NODE = document.CreateElement("System");
+                    document.AppendChild(System_NODE);
                 }
                 document.Save(xmlName);//將生成好的xml儲存到test.xml檔案中
             }
+            System_NODE = document.SelectSingleNode("System");
             SECS = new _SECS(document, xmlName);
         }
+
+        public string EQ_MDLN
+        {
+            get
+            {
+                XmlElement _EQ_MDLN = (XmlElement)System_NODE.SelectSingleNode("EQ_MDLN");
+                if (_EQ_MDLN == null)
+                {
+                    _EQ_MDLN = document.CreateElement("EQ_MDLN");
+                    _EQ_MDLN.InnerText = "Please modify EQ_MDLN";
+                    System_NODE.AppendChild(_EQ_MDLN);//新增到 SECS 節點中
+                    document.Save(xmlName);//將生成好的xml儲存到test.xml檔案中
+                }
+                return _EQ_MDLN.InnerText;
+            }
+            set
+            {
+                XmlElement _EQ_MDLN = (XmlElement)System_NODE.SelectSingleNode("EQ_MDLN");
+                _EQ_MDLN.InnerText = value;
+            }
+        }
+
         public void Upgrade()
         {
             document.Save(xmlName);
