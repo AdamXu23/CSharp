@@ -124,7 +124,7 @@ namespace XmlDocument_TEST
             HSMS_Node = SECS_Node.SelectSingleNode("HSMS");
 
         }
-        
+
         public bool General_AutoDevice
         {
             get 
@@ -346,5 +346,9 @@ namespace XmlDocument_TEST
             }
         }
 
+        public void Upgrade()
+        {
+            document.Save(xmlName);
+        }
     }
 }
