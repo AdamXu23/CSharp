@@ -73,5 +73,55 @@ namespace XmlDocument_TEST
             LinkTestTimer_numericUpDown.Value = Parameters.HSMS_LinkTestTimer;
 
         }
+
+        private void General_Save()
+        {
+            Parameters.General_AutoDevice = AutoDevice_CB.Checked;
+
+            Parameters.General_MultipleOpen = MonitorEnabled_CB.Checked;
+
+            Parameters.General_MultipleOpen = MultipleOpen_CB.Checked;
+
+            Parameters.General_PortType = (SECS_PORT_TYPE)Enum.Parse(typeof(SECS_PORT_TYPE), PortType_CB.Text); PortType_CB.Text;
+
+            Parameters.General_DefaultDeviceID  = DefaultDeviceID_numericUpDown.Value;
+        }
+
+        private void HSMS_Save()
+        {
+            T3_numericUpDown.Value = Parameters.HSMS_T3;
+
+            T5_numericUpDown.Value = Parameters.HSMS_T5;
+
+            T6_numericUpDown.Value = Parameters.HSMS_T6;
+
+            T7_numericUpDown.Value = Parameters.HSMS_T7;
+
+            T8_numericUpDown.Value = Parameters.HSMS_T8;
+
+            ConnectionMode_CB.SelectedItem = Parameters.HSMS_ConnectionMode;
+
+            LocalIPAddress_textBox.Text = Parameters.HSMS_LocalIPAddress;
+
+            RemoteIPAddress_textBox.Text = Parameters.HSMS_RemoteIPAddress;
+
+            LocalIPPort_numericUpDown.Value = Parameters.HSMS_LocalIPPort;
+
+            RemoteIPPort_numericUpDown.Value = Parameters.HSMS_RemoteIPPort;
+
+            LinkTestTimer_numericUpDown.Value = Parameters.HSMS_LinkTestTimer;
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            General_Load();
+            HSMS_Load();
+        }
     }
 }
