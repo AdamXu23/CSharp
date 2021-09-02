@@ -46,19 +46,6 @@ namespace XmlDocument_TEST
         }
         private void HSMS_Load()
         {
-            /*
-            T3_numericUpDown.Value = Parameters.HSMS_T3;
-            T5_numericUpDown.Value = Parameters.HSMS_T5;
-            T6_numericUpDown.Value = Parameters.HSMS_T6;
-            T7_numericUpDown.Value = Parameters.HSMS_T7;
-            T8_numericUpDown.Value = Parameters.HSMS_T8;
-            ConnectionMode_CB.SelectedItem = Parameters.HSMS_ConnectionMode;
-            LocalIPAddress_textBox.Text = Parameters.HSMS_LocalIPAddress;
-            RemoteIPAddress_textBox.Text = Parameters.HSMS_RemoteIPAddress;
-            LocalIPPort_numericUpDown.Value = Parameters.HSMS_LocalIPPort;
-            RemoteIPPort_numericUpDown.Value = Parameters.HSMS_RemoteIPPort;
-            LinkTestTimer_numericUpDown.Value = Parameters.HSMS_LinkTestTimer;
-            */
             T3_numericUpDown.Value = Parameters.SECS.HSMS.T3;
             T5_numericUpDown.Value = Parameters.SECS.HSMS.T5;
             T6_numericUpDown.Value = Parameters.SECS.HSMS.T6;
@@ -83,19 +70,6 @@ namespace XmlDocument_TEST
 
         private void HSMS_Save()
         {
-            /*
-            Parameters.HSMS_T3 = Convert.ToInt64(T3_numericUpDown.Value);
-            Parameters.HSMS_T5 = Convert.ToInt64(T5_numericUpDown.Value);
-            Parameters.HSMS_T6 = Convert.ToInt64(T6_numericUpDown.Value);
-            Parameters.HSMS_T7 = Convert.ToInt64(T7_numericUpDown.Value);
-            Parameters.HSMS_T8 = Convert.ToInt64(T8_numericUpDown.Value);
-            Parameters.HSMS_ConnectionMode = (HSMS_CONNECTION_MODE)Enum.Parse(typeof(HSMS_CONNECTION_MODE), ConnectionMode_CB.Text);
-            Parameters.HSMS_LocalIPAddress = LocalIPAddress_textBox.Text;
-            Parameters.HSMS_RemoteIPAddress = RemoteIPAddress_textBox.Text;
-            Parameters.HSMS_LocalIPPort = Convert.ToUInt32(LocalIPPort_numericUpDown.Value);
-            Parameters.HSMS_RemoteIPPort = Convert.ToUInt32(RemoteIPPort_numericUpDown.Value);
-            Parameters.HSMS_LinkTestTimer = Convert.ToUInt32(LinkTestTimer_numericUpDown.Value);
-            */
             Parameters.SECS.HSMS.T3 = Convert.ToInt64(T3_numericUpDown.Value);
             Parameters.SECS.HSMS.T5 = Convert.ToInt64(T5_numericUpDown.Value);
             Parameters.SECS.HSMS.T6 = Convert.ToInt64(T6_numericUpDown.Value);

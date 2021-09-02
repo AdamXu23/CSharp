@@ -14,28 +14,38 @@ namespace XmlDocument_TEST
     {
         private string xmlName = "Parameters.xml";
         private XmlDocument document = new XmlDocument() ;
-        private XmlNode Parameters_NODE ;
+        private XmlNode Parameters_NODE;
+        private XmlDeclaration declaration;
         public _SECS SECS;
         public Parameters_xml(string _xmlName)
         {
             document = new XmlDocument();
             xmlName = _xmlName;
-            bool result = File.Exists(xmlName);
-            if (result == true)
+            try
             {
                 document.Load(xmlName);
             }
-            else
+            catch
             {
-                XmlDeclaration declaration = document.CreateXmlDeclaration("1.0", "UTF-8", "");//xml文件的宣告部分
-                document.AppendChild(declaration);
+                declaration = document.FirstChild as XmlDeclaration;
+                if (declaration == null)
+                {
 
-                Parameters_NODE = document.CreateElement("Parameters");
-                document.AppendChild(Parameters_NODE);
-
+                    declaration = document.CreateXmlDeclaration("1.0", "UTF-8", "");//xml文件的宣告部分
+                    document.AppendChild(declaration);
+                }
+                else
+                {
+                    declaration.Encoding = "UTF-8";
+                }
+                Parameters_NODE = document.SelectSingleNode("Parameters");
+                if (Parameters_NODE == null)
+                {
+                    Parameters_NODE = document.CreateElement("Parameters");
+                    document.AppendChild(Parameters_NODE);
+                }
                 document.Save(xmlName);//將生成好的xml儲存到test.xml檔案中
             }
-            Parameters_NODE = document.SelectSingleNode("Parameters");
             SECS = new _SECS(document, xmlName);
         }
         public void Upgrade()
