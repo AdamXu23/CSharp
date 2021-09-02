@@ -11,12 +11,76 @@ namespace XmlDocument_TEST
 {
     class _HSMS
     {
-        private XmlNode HSMS_Node;
+        private string xmlName = "Parameters.xml";
         private XmlDocument document = new XmlDocument();
-        public _HSMS(XmlDocument _XmlDocument, XmlNode _XmlNode)
+        private XmlNode Parameters_NODE;
+        private XmlNode SECS_Node;
+        private XmlNode HSMS_Node;
+        public _HSMS(XmlDocument _XmlDocument , string _xmlName)
         {
             document = _XmlDocument;
-            HSMS_Node = _XmlNode;
+            Parameters_NODE = document.SelectSingleNode("Parameters");
+            SECS_Node = Parameters_NODE.SelectSingleNode("SECS");
+            HSMS_Node = SECS_Node.SelectSingleNode("HSMS");
+            if (HSMS_Node == null)
+            {
+                HSMS_Node = document.CreateElement("HSMS");
+                SECS_Node.AppendChild(HSMS_Node);//新增到 SECS 節點中
+
+
+                XmlElement SECS_T3 = document.CreateElement("T3");
+                uint T = 45;
+                SECS_T3.InnerText = T.ToString();
+                HSMS_Node.AppendChild(SECS_T3);//新增到 SECS 節點中
+
+                XmlElement SECS_T5 = document.CreateElement("T5");
+                T = 10;
+                SECS_T5.InnerText = T.ToString();
+                HSMS_Node.AppendChild(SECS_T5);//新增到 SECS 節點中
+
+                XmlElement SECS_T6 = document.CreateElement("T6");
+                T = 5;
+                SECS_T6.InnerText = T.ToString();
+                HSMS_Node.AppendChild(SECS_T6);//新增到 SECS 節點中
+
+                XmlElement SECS_T7 = document.CreateElement("T7");
+                T = 10;
+                SECS_T7.InnerText = T.ToString();
+                HSMS_Node.AppendChild(SECS_T7);//新增到 SECS 節點中
+
+                XmlElement SECS_T8 = document.CreateElement("T8");
+                T = 5;
+                SECS_T8.InnerText = T.ToString();
+                HSMS_Node.AppendChild(SECS_T8);//新增到 SECS 節點中
+
+                XmlElement SECS_ConnectionMode = document.CreateElement("ConnectionMode");
+                SECS_ConnectionMode.InnerText = HSMS_CONNECTION_MODE.PASSIVE.ToString();
+                HSMS_Node.AppendChild(SECS_ConnectionMode);//新增到 SECS 節點中
+
+                XmlElement SECS_LocalIPAddress = document.CreateElement("LocalIPAddress");
+                SECS_LocalIPAddress.InnerText = "127.0.0.1";
+                HSMS_Node.AppendChild(SECS_LocalIPAddress);//新增到 SECS 節點中
+
+                XmlElement SECS_RemoteIPAddress = document.CreateElement("RemoteIPAddress");
+                SECS_RemoteIPAddress.InnerText = "127.0.0.1";
+                HSMS_Node.AppendChild(SECS_RemoteIPAddress);//新增到 SECS 節點中
+
+                XmlElement SECS_LocalIPPort = document.CreateElement("LocalIPPort");
+                uint port = 5100;
+                SECS_LocalIPPort.InnerText = port.ToString();
+                HSMS_Node.AppendChild(SECS_LocalIPPort);//新增到 SECS 節點中
+
+                XmlElement SECS_RemoteIPPort = document.CreateElement("RemoteIPPort");
+                SECS_RemoteIPPort.InnerText = port.ToString();
+                HSMS_Node.AppendChild(SECS_RemoteIPPort);//新增到 SECS 節點中
+
+                XmlElement SECS_LinkTestTimer = document.CreateElement("LinkTestTimer");
+                long Slt = 60;
+                SECS_LinkTestTimer.InnerText = Slt.ToString();
+                HSMS_Node.AppendChild(SECS_LinkTestTimer);//新增到 SECS 節點中
+
+                document.Save(xmlName);//將生成好的xml儲存到test.xml檔案中
+            }
         }
         public long T3
         {

@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.Xml;
 using System.IO;
 using Brooks.WinSECS;
+using XmlDocument_TEST;
 
 namespace XmlDocument_TEST
 {
@@ -16,8 +17,8 @@ namespace XmlDocument_TEST
         private XmlNode Parameters_NODE ;
         private XmlNode SECS_Node ;
         private XmlNode General_Node;
-        public _HSMS HSMS;
-
+        private XmlNode HSMS_Node;
+        public _SECS SECS;
         public Parameters_xml(string _xmlName)
         {
             document = new XmlDocument();
@@ -34,13 +35,7 @@ namespace XmlDocument_TEST
 
                 Parameters_NODE = document.CreateElement("Parameters");
                 document.AppendChild(Parameters_NODE);
-
-                SECS_Node = document.CreateElement("SECS");
-                Parameters_NODE.AppendChild(SECS_Node);//新增到 Parameters 節點中
-
-                HSMS_Node = document.CreateElement("HSMS");
-                SECS_Node.AppendChild(HSMS_Node);//新增到 SECS 節點中
-
+                /*
                 General_Node = document.CreateElement("General");
                 SECS_Node.AppendChild(General_Node);//新增到 SECS 節點中
 
@@ -66,44 +61,36 @@ namespace XmlDocument_TEST
                 General_Node.AppendChild(SECS_DefaultDeviceID);//新增到 SECS 節點中
 
 
-
+                
                 XmlElement SECS_T3 = document.CreateElement("T3");
                 uint T = 45;
                 SECS_T3.InnerText = T.ToString();
                 HSMS_Node.AppendChild(SECS_T3);//新增到 SECS 節點中
-
                 XmlElement SECS_T5 = document.CreateElement("T5");
                 T = 10;
                 SECS_T5.InnerText = T.ToString();
                 HSMS_Node.AppendChild(SECS_T5);//新增到 SECS 節點中
-
                 XmlElement SECS_T6 = document.CreateElement("T6");
                 T = 5;
                 SECS_T6.InnerText = T.ToString();
                 HSMS_Node.AppendChild(SECS_T6);//新增到 SECS 節點中
-
                 XmlElement SECS_T7 = document.CreateElement("T7");
                 T = 10;
                 SECS_T7.InnerText = T.ToString();
                 HSMS_Node.AppendChild(SECS_T7);//新增到 SECS 節點中
-
                 XmlElement SECS_T8 = document.CreateElement("T8");
                 T = 5;
                 SECS_T8.InnerText = T.ToString();
                 HSMS_Node.AppendChild(SECS_T8);//新增到 SECS 節點中
-
                 XmlElement SECS_ConnectionMode = document.CreateElement("ConnectionMode");
                 SECS_ConnectionMode.InnerText = HSMS_CONNECTION_MODE.PASSIVE.ToString();
                 HSMS_Node.AppendChild(SECS_ConnectionMode);//新增到 SECS 節點中
-
                 XmlElement SECS_LocalIPAddress = document.CreateElement("LocalIPAddress");
                 SECS_LocalIPAddress.InnerText = "127.0.0.1";
                 HSMS_Node.AppendChild(SECS_LocalIPAddress);//新增到 SECS 節點中
-
                 XmlElement SECS_RemoteIPAddress = document.CreateElement("RemoteIPAddress");
                 SECS_RemoteIPAddress.InnerText = "127.0.0.1";
                 HSMS_Node.AppendChild(SECS_RemoteIPAddress);//新增到 SECS 節點中
-
                 XmlElement SECS_LocalIPPort = document.CreateElement("LocalIPPort");
                 uint port = 5100;
                 SECS_LocalIPPort.InnerText = port.ToString();
@@ -117,15 +104,14 @@ namespace XmlDocument_TEST
                 long Slt = 60;
                 SECS_LinkTestTimer.InnerText = Slt.ToString();
                 HSMS_Node.AppendChild(SECS_LinkTestTimer);//新增到 SECS 節點中
+                */
 
                 document.Save(xmlName);//將生成好的xml儲存到test.xml檔案中
             }
             Parameters_NODE = document.SelectSingleNode("Parameters");
-            SECS_Node = Parameters_NODE.SelectSingleNode("SECS");
-            General_Node = SECS_Node.SelectSingleNode("General");
-            HSMS = new _HSMS(SECS_Node.SelectSingleNode("HSMS"));
+            SECS = new _SECS(document, xmlName);
         }
-
+        /*
         public bool General_AutoDevice
         {
             get 
@@ -193,7 +179,7 @@ namespace XmlDocument_TEST
                 DefaultDeviceID.InnerText = value.ToString();
             }
         }
-        /*
+        
         public long HSMS_T3
         {
             get

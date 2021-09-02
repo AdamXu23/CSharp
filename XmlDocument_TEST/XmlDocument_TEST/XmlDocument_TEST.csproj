@@ -49,8 +49,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Class\_General.cs" />
     <Compile Include="Class\_HSMS.cs" />
     <Compile Include="Class\Parameters_xml.cs" />
+    <Compile Include="Class\_SECS.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>

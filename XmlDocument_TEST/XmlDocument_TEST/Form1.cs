@@ -38,11 +38,11 @@ namespace XmlDocument_TEST
 
         private void General_Load()
         {
-            AutoDevice_CB.Checked = Parameters.General_AutoDevice;
-            MonitorEnabled_CB.Checked = Parameters.General_MultipleOpen;
-            MultipleOpen_CB.Checked = Parameters.General_MultipleOpen;
-            PortType_CB.SelectedItem = Parameters.General_PortType;
-            DefaultDeviceID_numericUpDown.Value = Parameters.General_DefaultDeviceID;
+            AutoDevice_CB.Checked = Parameters.SECS.General.AutoDevice;
+            MonitorEnabled_CB.Checked = Parameters.SECS.General.MultipleOpen;
+            MultipleOpen_CB.Checked = Parameters.SECS.General.MultipleOpen;
+            PortType_CB.SelectedItem = Parameters.SECS.General.PortType;
+            DefaultDeviceID_numericUpDown.Value = Parameters.SECS.General.DefaultDeviceID;
         }
         private void HSMS_Load()
         {
@@ -59,26 +59,26 @@ namespace XmlDocument_TEST
             RemoteIPPort_numericUpDown.Value = Parameters.HSMS_RemoteIPPort;
             LinkTestTimer_numericUpDown.Value = Parameters.HSMS_LinkTestTimer;
             */
-            T3_numericUpDown.Value = Parameters.HSMS.T3;
-            T5_numericUpDown.Value = Parameters.HSMS.T5;
-            T6_numericUpDown.Value = Parameters.HSMS.T6;
-            T7_numericUpDown.Value = Parameters.HSMS.T7;
-            T8_numericUpDown.Value = Parameters.HSMS.T8;
-            ConnectionMode_CB.SelectedItem = Parameters.HSMS.ConnectionMode;
-            LocalIPAddress_textBox.Text = Parameters.HSMS.LocalIPAddress;
-            RemoteIPAddress_textBox.Text = Parameters.HSMS.RemoteIPAddress;
-            LocalIPPort_numericUpDown.Value = Parameters.HSMS.LocalIPPort;
-            RemoteIPPort_numericUpDown.Value = Parameters.HSMS.RemoteIPPort;
-            LinkTestTimer_numericUpDown.Value = Parameters.HSMS.LinkTestTimer;
+            T3_numericUpDown.Value = Parameters.SECS.HSMS.T3;
+            T5_numericUpDown.Value = Parameters.SECS.HSMS.T5;
+            T6_numericUpDown.Value = Parameters.SECS.HSMS.T6;
+            T7_numericUpDown.Value = Parameters.SECS.HSMS.T7;
+            T8_numericUpDown.Value = Parameters.SECS.HSMS.T8;
+            ConnectionMode_CB.SelectedItem = Parameters.SECS.HSMS.ConnectionMode;
+            LocalIPAddress_textBox.Text = Parameters.SECS.HSMS.LocalIPAddress;
+            RemoteIPAddress_textBox.Text = Parameters.SECS.HSMS.RemoteIPAddress;
+            LocalIPPort_numericUpDown.Value = Parameters.SECS.HSMS.LocalIPPort;
+            RemoteIPPort_numericUpDown.Value = Parameters.SECS.HSMS.RemoteIPPort;
+            LinkTestTimer_numericUpDown.Value = Parameters.SECS.HSMS.LinkTestTimer;
         }
 
         private void General_Save()
         {
-            Parameters.General_AutoDevice = AutoDevice_CB.Checked;
-            Parameters.General_MonitorEnabled = MonitorEnabled_CB.Checked;
-            Parameters.General_MultipleOpen = MultipleOpen_CB.Checked;
-            Parameters.General_PortType = (SECS_PORT_TYPE)Enum.Parse(typeof(SECS_PORT_TYPE), PortType_CB.Text); 
-            Parameters.General_DefaultDeviceID  = Convert.ToInt64(DefaultDeviceID_numericUpDown.Value);
+            Parameters.SECS.General.AutoDevice= AutoDevice_CB.Checked;
+            Parameters.SECS.General.MonitorEnabled = MonitorEnabled_CB.Checked;
+            Parameters.SECS.General.MultipleOpen = MultipleOpen_CB.Checked;
+            Parameters.SECS.General.PortType = (SECS_PORT_TYPE)Enum.Parse(typeof(SECS_PORT_TYPE), PortType_CB.Text); 
+            Parameters.SECS.General.DefaultDeviceID  = Convert.ToInt64(DefaultDeviceID_numericUpDown.Value);
         }
 
         private void HSMS_Save()
@@ -96,17 +96,17 @@ namespace XmlDocument_TEST
             Parameters.HSMS_RemoteIPPort = Convert.ToUInt32(RemoteIPPort_numericUpDown.Value);
             Parameters.HSMS_LinkTestTimer = Convert.ToUInt32(LinkTestTimer_numericUpDown.Value);
             */
-            Parameters.HSMS.T3 = Convert.ToInt64(T3_numericUpDown.Value);
-            Parameters.HSMS.T5 = Convert.ToInt64(T5_numericUpDown.Value);
-            Parameters.HSMS.T6 = Convert.ToInt64(T6_numericUpDown.Value);
-            Parameters.HSMS.T7 = Convert.ToInt64(T7_numericUpDown.Value);
-            Parameters.HSMS.T8 = Convert.ToInt64(T8_numericUpDown.Value);
-            Parameters.HSMS.ConnectionMode = (HSMS_CONNECTION_MODE)Enum.Parse(typeof(HSMS_CONNECTION_MODE), ConnectionMode_CB.Text);
-            Parameters.HSMS.LocalIPAddress = LocalIPAddress_textBox.Text;
-            Parameters.HSMS.RemoteIPAddress = RemoteIPAddress_textBox.Text;
-            Parameters.HSMS.LocalIPPort = Convert.ToUInt32(LocalIPPort_numericUpDown.Value);
-            Parameters.HSMS.RemoteIPPort = Convert.ToUInt32(RemoteIPPort_numericUpDown.Value);
-            Parameters.HSMS.LinkTestTimer = Convert.ToUInt32(LinkTestTimer_numericUpDown.Value);
+            Parameters.SECS.HSMS.T3 = Convert.ToInt64(T3_numericUpDown.Value);
+            Parameters.SECS.HSMS.T5 = Convert.ToInt64(T5_numericUpDown.Value);
+            Parameters.SECS.HSMS.T6 = Convert.ToInt64(T6_numericUpDown.Value);
+            Parameters.SECS.HSMS.T7 = Convert.ToInt64(T7_numericUpDown.Value);
+            Parameters.SECS.HSMS.T8 = Convert.ToInt64(T8_numericUpDown.Value);
+            Parameters.SECS.HSMS.ConnectionMode = (HSMS_CONNECTION_MODE)Enum.Parse(typeof(HSMS_CONNECTION_MODE), ConnectionMode_CB.Text);
+            Parameters.SECS.HSMS.LocalIPAddress = LocalIPAddress_textBox.Text;
+            Parameters.SECS.HSMS.RemoteIPAddress = RemoteIPAddress_textBox.Text;
+            Parameters.SECS.HSMS.LocalIPPort = Convert.ToUInt32(LocalIPPort_numericUpDown.Value);
+            Parameters.SECS.HSMS.RemoteIPPort = Convert.ToUInt32(RemoteIPPort_numericUpDown.Value);
+            Parameters.SECS.HSMS.LinkTestTimer = Convert.ToUInt32(LinkTestTimer_numericUpDown.Value);
         }
 
         private void button2_Click(object sender, EventArgs e)
