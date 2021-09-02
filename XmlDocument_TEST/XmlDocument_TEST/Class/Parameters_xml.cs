@@ -16,7 +16,7 @@ namespace XmlDocument_TEST
         private XmlNode Parameters_NODE ;
         private XmlNode SECS_Node ;
         private XmlNode General_Node;
-        private XmlNode HSMS_Node;
+        public _HSMS HSMS;
 
         public Parameters_xml(string _xmlName)
         {
@@ -64,6 +64,8 @@ namespace XmlDocument_TEST
                 long DefaultDeviceID = 0;
                 SECS_DefaultDeviceID.InnerText = DefaultDeviceID.ToString();
                 General_Node.AppendChild(SECS_DefaultDeviceID);//新增到 SECS 節點中
+
+
 
                 XmlElement SECS_T3 = document.CreateElement("T3");
                 uint T = 45;
@@ -121,8 +123,7 @@ namespace XmlDocument_TEST
             Parameters_NODE = document.SelectSingleNode("Parameters");
             SECS_Node = Parameters_NODE.SelectSingleNode("SECS");
             General_Node = SECS_Node.SelectSingleNode("General");
-            HSMS_Node = SECS_Node.SelectSingleNode("HSMS");
-
+            HSMS = new _HSMS(SECS_Node.SelectSingleNode("HSMS"));
         }
 
         public bool General_AutoDevice
@@ -192,7 +193,7 @@ namespace XmlDocument_TEST
                 DefaultDeviceID.InnerText = value.ToString();
             }
         }
-
+        /*
         public long HSMS_T3
         {
             get
@@ -345,7 +346,7 @@ namespace XmlDocument_TEST
                 LinkTestTimer.InnerText = value.ToString();
             }
         }
-
+        */
         public void Upgrade()
         {
             document.Save(xmlName);

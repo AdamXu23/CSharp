@@ -16,7 +16,7 @@
     </HSMS>
     <General>
       <AutoDevice>True</AutoDevice>
-      <MonitorEnabled>False</MonitorEnabled>
+      <MonitorEnabled>True</MonitorEnabled>
       <MultipleOpen>True</MultipleOpen>
       <PortType>HSMS</PortType>
       <DefaultDeviceID>0</DefaultDeviceID>

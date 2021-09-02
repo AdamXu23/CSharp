@@ -46,6 +46,7 @@ namespace XmlDocument_TEST
         }
         private void HSMS_Load()
         {
+            /*
             T3_numericUpDown.Value = Parameters.HSMS_T3;
             T5_numericUpDown.Value = Parameters.HSMS_T5;
             T6_numericUpDown.Value = Parameters.HSMS_T6;
@@ -57,6 +58,18 @@ namespace XmlDocument_TEST
             LocalIPPort_numericUpDown.Value = Parameters.HSMS_LocalIPPort;
             RemoteIPPort_numericUpDown.Value = Parameters.HSMS_RemoteIPPort;
             LinkTestTimer_numericUpDown.Value = Parameters.HSMS_LinkTestTimer;
+            */
+            T3_numericUpDown.Value = Parameters.HSMS.T3;
+            T5_numericUpDown.Value = Parameters.HSMS.T5;
+            T6_numericUpDown.Value = Parameters.HSMS.T6;
+            T7_numericUpDown.Value = Parameters.HSMS.T7;
+            T8_numericUpDown.Value = Parameters.HSMS.T8;
+            ConnectionMode_CB.SelectedItem = Parameters.HSMS.ConnectionMode;
+            LocalIPAddress_textBox.Text = Parameters.HSMS.LocalIPAddress;
+            RemoteIPAddress_textBox.Text = Parameters.HSMS.RemoteIPAddress;
+            LocalIPPort_numericUpDown.Value = Parameters.HSMS.LocalIPPort;
+            RemoteIPPort_numericUpDown.Value = Parameters.HSMS.RemoteIPPort;
+            LinkTestTimer_numericUpDown.Value = Parameters.HSMS.LinkTestTimer;
         }
 
         private void General_Save()
@@ -70,6 +83,7 @@ namespace XmlDocument_TEST
 
         private void HSMS_Save()
         {
+            /*
             Parameters.HSMS_T3 = Convert.ToInt64(T3_numericUpDown.Value);
             Parameters.HSMS_T5 = Convert.ToInt64(T5_numericUpDown.Value);
             Parameters.HSMS_T6 = Convert.ToInt64(T6_numericUpDown.Value);
@@ -81,6 +95,18 @@ namespace XmlDocument_TEST
             Parameters.HSMS_LocalIPPort = Convert.ToUInt32(LocalIPPort_numericUpDown.Value);
             Parameters.HSMS_RemoteIPPort = Convert.ToUInt32(RemoteIPPort_numericUpDown.Value);
             Parameters.HSMS_LinkTestTimer = Convert.ToUInt32(LinkTestTimer_numericUpDown.Value);
+            */
+            Parameters.HSMS.T3 = Convert.ToInt64(T3_numericUpDown.Value);
+            Parameters.HSMS.T5 = Convert.ToInt64(T5_numericUpDown.Value);
+            Parameters.HSMS.T6 = Convert.ToInt64(T6_numericUpDown.Value);
+            Parameters.HSMS.T7 = Convert.ToInt64(T7_numericUpDown.Value);
+            Parameters.HSMS.T8 = Convert.ToInt64(T8_numericUpDown.Value);
+            Parameters.HSMS.ConnectionMode = (HSMS_CONNECTION_MODE)Enum.Parse(typeof(HSMS_CONNECTION_MODE), ConnectionMode_CB.Text);
+            Parameters.HSMS.LocalIPAddress = LocalIPAddress_textBox.Text;
+            Parameters.HSMS.RemoteIPAddress = RemoteIPAddress_textBox.Text;
+            Parameters.HSMS.LocalIPPort = Convert.ToUInt32(LocalIPPort_numericUpDown.Value);
+            Parameters.HSMS.RemoteIPPort = Convert.ToUInt32(RemoteIPPort_numericUpDown.Value);
+            Parameters.HSMS.LinkTestTimer = Convert.ToUInt32(LinkTestTimer_numericUpDown.Value);
         }
 
         private void button2_Click(object sender, EventArgs e)
