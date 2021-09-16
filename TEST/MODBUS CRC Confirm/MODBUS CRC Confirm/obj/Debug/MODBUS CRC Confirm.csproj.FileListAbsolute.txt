@@ -1,0 +1,9 @@
+C:\Users\xsz19\source\repos\MODBUS CRC Confirm\MODBUS CRC Confirm\bin\Debug\MODBUS CRC Confirm.exe.config
+C:\Users\xsz19\source\repos\MODBUS CRC Confirm\MODBUS CRC Confirm\bin\Debug\MODBUS CRC Confirm.exe
+C:\Users\xsz19\source\repos\MODBUS CRC Confirm\MODBUS CRC Confirm\bin\Debug\MODBUS CRC Confirm.pdb
+C:\Users\xsz19\source\repos\MODBUS CRC Confirm\MODBUS CRC Confirm\obj\Debug\MODBUS CRC Confirm.csprojAssemblyReference.cache
+C:\Users\xsz19\source\repos\MODBUS CRC Confirm\MODBUS CRC Confirm\obj\Debug\MODBUS_CRC_Confirm.Form1.resources
+C:\Users\xsz19\source\repos\MODBUS CRC Confirm\MODBUS CRC Confirm\obj\Debug\MODBUS_CRC_Confirm.Properties.Resources.resources
+C:\Users\xsz19\source\repos\MODBUS CRC Confirm\MODBUS CRC Confirm\obj\Debug\MODBUS CRC Confirm.csproj.GenerateResource.cache
+C:\Users\xsz19\source\repos\MODBUS CRC Confirm\MODBUS CRC Confirm\obj\Debug\MODBUS CRC Confirm.exe
+C:\Users\xsz19\source\repos\MODBUS CRC Confirm\MODBUS CRC Confirm\obj\Debug\MODBUS CRC Confirm.pdb

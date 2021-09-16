@@ -1,0 +1,9 @@
+C:\Users\xsz19\source\repos\INITEST\INITEST\bin\Debug\INITEST.exe.config
+C:\Users\xsz19\source\repos\INITEST\INITEST\bin\Debug\INITEST.exe
+C:\Users\xsz19\source\repos\INITEST\INITEST\bin\Debug\INITEST.pdb
+C:\Users\xsz19\source\repos\INITEST\INITEST\obj\Debug\INITEST.csprojAssemblyReference.cache
+C:\Users\xsz19\source\repos\INITEST\INITEST\obj\Debug\INITEST.Form1.resources
+C:\Users\xsz19\source\repos\INITEST\INITEST\obj\Debug\INITEST.Properties.Resources.resources
+C:\Users\xsz19\source\repos\INITEST\INITEST\obj\Debug\INITEST.csproj.GenerateResource.cache
+C:\Users\xsz19\source\repos\INITEST\INITEST\obj\Debug\INITEST.exe
+C:\Users\xsz19\source\repos\INITEST\INITEST\obj\Debug\INITEST.pdb

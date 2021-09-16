@@ -1,0 +1,9 @@
+C:\Users\xsz19\source\repos\OPC_UA_Sever_Test\OPC_UA_Sever_Test\bin\Debug\OPC_UA_Sever_Test.exe.config
+C:\Users\xsz19\source\repos\OPC_UA_Sever_Test\OPC_UA_Sever_Test\bin\Debug\OPC_UA_Sever_Test.exe
+C:\Users\xsz19\source\repos\OPC_UA_Sever_Test\OPC_UA_Sever_Test\bin\Debug\OPC_UA_Sever_Test.pdb
+C:\Users\xsz19\source\repos\OPC_UA_Sever_Test\OPC_UA_Sever_Test\obj\Debug\OPC_UA_Sever_Test.csprojAssemblyReference.cache
+C:\Users\xsz19\source\repos\OPC_UA_Sever_Test\OPC_UA_Sever_Test\obj\Debug\OPC_UA_Sever_Test.Form1.resources
+C:\Users\xsz19\source\repos\OPC_UA_Sever_Test\OPC_UA_Sever_Test\obj\Debug\OPC_UA_Sever_Test.Properties.Resources.resources
+C:\Users\xsz19\source\repos\OPC_UA_Sever_Test\OPC_UA_Sever_Test\obj\Debug\OPC_UA_Sever_Test.csproj.GenerateResource.cache
+C:\Users\xsz19\source\repos\OPC_UA_Sever_Test\OPC_UA_Sever_Test\obj\Debug\OPC_UA_Sever_Test.exe
+C:\Users\xsz19\source\repos\OPC_UA_Sever_Test\OPC_UA_Sever_Test\obj\Debug\OPC_UA_Sever_Test.pdb

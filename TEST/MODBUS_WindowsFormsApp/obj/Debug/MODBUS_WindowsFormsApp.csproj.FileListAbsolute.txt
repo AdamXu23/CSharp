@@ -1,0 +1,10 @@
+C:\Users\xsz19\source\repos\MODBUS_WindowsFormsApp\bin\Debug\MODBUS_WindowsFormsApp.exe.config
+C:\Users\xsz19\source\repos\MODBUS_WindowsFormsApp\bin\Debug\MODBUS_WindowsFormsApp.exe
+C:\Users\xsz19\source\repos\MODBUS_WindowsFormsApp\bin\Debug\MODBUS_WindowsFormsApp.pdb
+C:\Users\xsz19\source\repos\MODBUS_WindowsFormsApp\obj\Debug\MODBUS_WindowsFormsApp.csprojAssemblyReference.cache
+C:\Users\xsz19\source\repos\MODBUS_WindowsFormsApp\obj\Debug\MODBUS_WindowsFormsApp.Form1.resources
+C:\Users\xsz19\source\repos\MODBUS_WindowsFormsApp\obj\Debug\MODBUS_WindowsFormsApp.Properties.Resources.resources
+C:\Users\xsz19\source\repos\MODBUS_WindowsFormsApp\obj\Debug\MODBUS_WindowsFormsApp.csproj.GenerateResource.cache
+C:\Users\xsz19\source\repos\MODBUS_WindowsFormsApp\obj\Debug\MODBUS_WindowsFormsApp.csproj.CoreCompileInputs.cache
+C:\Users\xsz19\source\repos\MODBUS_WindowsFormsApp\obj\Debug\MODBUS_WindowsFormsApp.exe
+C:\Users\xsz19\source\repos\MODBUS_WindowsFormsApp\obj\Debug\MODBUS_WindowsFormsApp.pdb

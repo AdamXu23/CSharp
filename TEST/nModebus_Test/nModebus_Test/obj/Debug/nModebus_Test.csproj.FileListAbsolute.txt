@@ -1,0 +1,17 @@
+C:\Users\xsz19\source\repos\nModebus_Test\nModebus_Test\bin\Debug\nModebus_Test.exe.config
+C:\Users\xsz19\source\repos\nModebus_Test\nModebus_Test\bin\Debug\nModebus_Test.exe
+C:\Users\xsz19\source\repos\nModebus_Test\nModebus_Test\bin\Debug\nModebus_Test.pdb
+C:\Users\xsz19\source\repos\nModebus_Test\nModebus_Test\bin\Debug\log4net.dll
+C:\Users\xsz19\source\repos\nModebus_Test\nModebus_Test\bin\Debug\Microsoft.Win32.Registry.dll
+C:\Users\xsz19\source\repos\nModebus_Test\nModebus_Test\bin\Debug\nmodbuspc.dll
+C:\Users\xsz19\source\repos\nModebus_Test\nModebus_Test\bin\Debug\RJCP.SerialPortStream.dll
+C:\Users\xsz19\source\repos\nModebus_Test\nModebus_Test\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\xsz19\source\repos\nModebus_Test\nModebus_Test\bin\Debug\RJCP.SerialPortStream.pdb
+C:\Users\xsz19\source\repos\nModebus_Test\nModebus_Test\bin\Debug\RJCP.SerialPortStream.xml
+C:\Users\xsz19\source\repos\nModebus_Test\nModebus_Test\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\xsz19\source\repos\nModebus_Test\nModebus_Test\obj\Debug\nModebus_Test.Form1.resources
+C:\Users\xsz19\source\repos\nModebus_Test\nModebus_Test\obj\Debug\nModebus_Test.Properties.Resources.resources
+C:\Users\xsz19\source\repos\nModebus_Test\nModebus_Test\obj\Debug\nModebus_Test.csproj.GenerateResource.cache
+C:\Users\xsz19\source\repos\nModebus_Test\nModebus_Test\obj\Debug\nModebus_Test.csproj.CopyComplete
+C:\Users\xsz19\source\repos\nModebus_Test\nModebus_Test\obj\Debug\nModebus_Test.exe
+C:\Users\xsz19\source\repos\nModebus_Test\nModebus_Test\obj\Debug\nModebus_Test.pdb

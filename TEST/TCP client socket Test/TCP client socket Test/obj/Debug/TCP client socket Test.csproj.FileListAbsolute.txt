@@ -1,0 +1,8 @@
+C:\Users\xsz19\source\repos\TCP client socket Test\TCP client socket Test\bin\Debug\TCP client socket Test.exe
+C:\Users\xsz19\source\repos\TCP client socket Test\TCP client socket Test\bin\Debug\TCP client socket Test.pdb
+C:\Users\xsz19\source\repos\TCP client socket Test\TCP client socket Test\obj\Debug\TCP_client_socket_Test.Form1.resources
+C:\Users\xsz19\source\repos\TCP client socket Test\TCP client socket Test\obj\Debug\TCP_client_socket_Test.Properties.Resources.resources
+C:\Users\xsz19\source\repos\TCP client socket Test\TCP client socket Test\obj\Debug\TCP client socket Test.csproj.GenerateResource.cache
+C:\Users\xsz19\source\repos\TCP client socket Test\TCP client socket Test\obj\Debug\TCP client socket Test.exe
+C:\Users\xsz19\source\repos\TCP client socket Test\TCP client socket Test\obj\Debug\TCP client socket Test.pdb
+C:\Users\xsz19\source\repos\TCP client socket Test\TCP client socket Test\obj\Debug\TCP client socket Test.csprojAssemblyReference.cache

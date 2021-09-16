@@ -1,0 +1,14 @@
+C:\Users\xsz19\source\repos\nModebus\nModebus\bin\Debug\nModebus.exe.config
+C:\Users\xsz19\source\repos\nModebus\nModebus\bin\Debug\nModebus.exe
+C:\Users\xsz19\source\repos\nModebus\nModebus\bin\Debug\nModebus.pdb
+C:\Users\xsz19\source\repos\nModebus\nModebus\bin\Debug\log4net.dll
+C:\Users\xsz19\source\repos\nModebus\nModebus\bin\Debug\NModbus.dll
+C:\Users\xsz19\source\repos\nModebus\nModebus\bin\Debug\nmodbuspc.dll
+C:\Users\xsz19\source\repos\nModebus\nModebus\bin\Debug\NModbus.xml
+C:\Users\xsz19\source\repos\nModebus\nModebus\obj\Debug\nModebus.csprojAssemblyReference.cache
+C:\Users\xsz19\source\repos\nModebus\nModebus\obj\Debug\nModebus.Form1.resources
+C:\Users\xsz19\source\repos\nModebus\nModebus\obj\Debug\nModebus.Properties.Resources.resources
+C:\Users\xsz19\source\repos\nModebus\nModebus\obj\Debug\nModebus.csproj.GenerateResource.cache
+C:\Users\xsz19\source\repos\nModebus\nModebus\obj\Debug\nModebus.csproj.CopyComplete
+C:\Users\xsz19\source\repos\nModebus\nModebus\obj\Debug\nModebus.exe
+C:\Users\xsz19\source\repos\nModebus\nModebus\obj\Debug\nModebus.pdb

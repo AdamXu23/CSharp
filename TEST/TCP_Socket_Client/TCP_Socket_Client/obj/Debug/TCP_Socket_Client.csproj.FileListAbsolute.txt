@@ -1,0 +1,9 @@
+C:\Users\xsz19\source\repos\TCP_Socket_Client\TCP_Socket_Client\bin\Debug\TCP_Socket_Client.exe
+C:\Users\xsz19\source\repos\TCP_Socket_Client\TCP_Socket_Client\bin\Debug\TCP_Socket_Client.pdb
+C:\Users\xsz19\source\repos\TCP_Socket_Client\TCP_Socket_Client\obj\Debug\TCP_Socket_Client.csprojAssemblyReference.cache
+C:\Users\xsz19\source\repos\TCP_Socket_Client\TCP_Socket_Client\obj\Debug\TCP_Socket_Client.Form1.resources
+C:\Users\xsz19\source\repos\TCP_Socket_Client\TCP_Socket_Client\obj\Debug\TCP_Socket_Client.Properties.Resources.resources
+C:\Users\xsz19\source\repos\TCP_Socket_Client\TCP_Socket_Client\obj\Debug\TCP_Socket_Client.csproj.GenerateResource.cache
+C:\Users\xsz19\source\repos\TCP_Socket_Client\TCP_Socket_Client\obj\Debug\TCP_Socket_Client.exe
+C:\Users\xsz19\source\repos\TCP_Socket_Client\TCP_Socket_Client\obj\Debug\TCP_Socket_Client.pdb
+C:\Users\xsz19\source\repos\TCP_Socket_Client\TCP_Socket_Client\obj\Debug\TCP_Socket_Client.Form2.resources

@@ -1,0 +1,9 @@
+C:\Users\Administrator\source\repos\GET_MAC_TEST\GET_MAC_TEST\bin\Debug\GET_MAC_TEST.exe
+C:\Users\Administrator\source\repos\GET_MAC_TEST\GET_MAC_TEST\bin\Debug\GET_MAC_TEST.pdb
+C:\Users\Administrator\source\repos\GET_MAC_TEST\GET_MAC_TEST\obj\Debug\GET_MAC_TEST.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\GET_MAC_TEST\GET_MAC_TEST\obj\Debug\GET_MAC_TEST.Form1.resources
+C:\Users\Administrator\source\repos\GET_MAC_TEST\GET_MAC_TEST\obj\Debug\GET_MAC_TEST.Properties.Resources.resources
+C:\Users\Administrator\source\repos\GET_MAC_TEST\GET_MAC_TEST\obj\Debug\GET_MAC_TEST.csproj.GenerateResource.cache
+C:\Users\Administrator\source\repos\GET_MAC_TEST\GET_MAC_TEST\obj\Debug\GET_MAC_TEST.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\GET_MAC_TEST\GET_MAC_TEST\obj\Debug\GET_MAC_TEST.exe
+C:\Users\Administrator\source\repos\GET_MAC_TEST\GET_MAC_TEST\obj\Debug\GET_MAC_TEST.pdb

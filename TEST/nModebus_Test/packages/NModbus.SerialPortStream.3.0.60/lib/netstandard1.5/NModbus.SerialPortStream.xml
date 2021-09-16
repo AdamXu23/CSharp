@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NModbus.SerialPortStream</name>
+    </assembly>
+    <members>
+        <member name="T:NModbus.SerialPortStream.SerialPortStreamAdapter">
+            <summary>
+            An adapter for the SerialPortStream class. Useful for getting serial port access on non-Windows devices.
+            </summary>
+        </member>
+    </members>
+</doc>

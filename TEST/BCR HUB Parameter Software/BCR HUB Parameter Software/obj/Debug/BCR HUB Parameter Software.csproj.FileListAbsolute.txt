@@ -1,0 +1,9 @@
+C:\Users\xsz19\source\repos\BCR HUB Parameter Software\BCR HUB Parameter Software\bin\Debug\BCR HUB Parameter Software.exe.config
+C:\Users\xsz19\source\repos\BCR HUB Parameter Software\BCR HUB Parameter Software\bin\Debug\BCR HUB Parameter Software.exe
+C:\Users\xsz19\source\repos\BCR HUB Parameter Software\BCR HUB Parameter Software\bin\Debug\BCR HUB Parameter Software.pdb
+C:\Users\xsz19\source\repos\BCR HUB Parameter Software\BCR HUB Parameter Software\obj\Debug\BCR HUB Parameter Software.csprojAssemblyReference.cache
+C:\Users\xsz19\source\repos\BCR HUB Parameter Software\BCR HUB Parameter Software\obj\Debug\BCR_HUB_Parameter_Software.Form1.resources
+C:\Users\xsz19\source\repos\BCR HUB Parameter Software\BCR HUB Parameter Software\obj\Debug\BCR_HUB_Parameter_Software.Properties.Resources.resources
+C:\Users\xsz19\source\repos\BCR HUB Parameter Software\BCR HUB Parameter Software\obj\Debug\BCR HUB Parameter Software.csproj.GenerateResource.cache
+C:\Users\xsz19\source\repos\BCR HUB Parameter Software\BCR HUB Parameter Software\obj\Debug\BCR HUB Parameter Software.exe
+C:\Users\xsz19\source\repos\BCR HUB Parameter Software\BCR HUB Parameter Software\obj\Debug\BCR HUB Parameter Software.pdb

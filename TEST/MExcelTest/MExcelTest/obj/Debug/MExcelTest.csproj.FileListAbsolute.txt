@@ -1,0 +1,9 @@
+C:\Users\xsz19\source\repos\MExcelTest\MExcelTest\bin\Debug\MExcelTest.exe.config
+C:\Users\xsz19\source\repos\MExcelTest\MExcelTest\bin\Debug\MExcelTest.exe
+C:\Users\xsz19\source\repos\MExcelTest\MExcelTest\bin\Debug\MExcelTest.pdb
+C:\Users\xsz19\source\repos\MExcelTest\MExcelTest\obj\Debug\MExcelTest.csprojAssemblyReference.cache
+C:\Users\xsz19\source\repos\MExcelTest\MExcelTest\obj\Debug\MExcelTest.Form1.resources
+C:\Users\xsz19\source\repos\MExcelTest\MExcelTest\obj\Debug\MExcelTest.Properties.Resources.resources
+C:\Users\xsz19\source\repos\MExcelTest\MExcelTest\obj\Debug\MExcelTest.csproj.GenerateResource.cache
+C:\Users\xsz19\source\repos\MExcelTest\MExcelTest\obj\Debug\MExcelTest.exe
+C:\Users\xsz19\source\repos\MExcelTest\MExcelTest\obj\Debug\MExcelTest.pdb

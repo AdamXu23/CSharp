@@ -1,0 +1,9 @@
+C:\Users\Administrator\source\repos\IPC_Data_Collection\IPC_Data_Collection\obj\Debug\IPC_Data_Collection.Form1.resources
+C:\Users\Administrator\source\repos\IPC_Data_Collection\IPC_Data_Collection\obj\Debug\IPC_Data_Collection.Properties.Resources.resources
+C:\Users\Administrator\source\repos\IPC_Data_Collection\IPC_Data_Collection\obj\Debug\IPC_Data_Collection.csproj.GenerateResource.cache
+C:\Users\Administrator\source\repos\IPC_Data_Collection\IPC_Data_Collection\obj\Debug\IPC_Data_Collection.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\IPC_Data_Collection\IPC_Data_Collection\bin\Debug\IPC_Data_Collection.exe
+C:\Users\Administrator\source\repos\IPC_Data_Collection\IPC_Data_Collection\bin\Debug\IPC_Data_Collection.pdb
+C:\Users\Administrator\source\repos\IPC_Data_Collection\IPC_Data_Collection\obj\Debug\IPC_Data_Collection.exe
+C:\Users\Administrator\source\repos\IPC_Data_Collection\IPC_Data_Collection\obj\Debug\IPC_Data_Collection.pdb
+C:\Users\Administrator\source\repos\IPC_Data_Collection\IPC_Data_Collection\obj\Debug\IPC_Data_Collection.csprojAssemblyReference.cache

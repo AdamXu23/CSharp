@@ -1,0 +1,15 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{218574D1-FF94-4B95-8577-A6D58C11C315}") = "ORACLE_Project_TEST", "ORACLE_Project_TEST\ORACLE_Project_TEST.oradbproj", "{4026B30F-4C35-4113-9487-38CDE6D50410}"
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1B0528BB-97B2-49AB-AFC2-D9373A575C75}
+	EndGlobalSection
+EndGlobal

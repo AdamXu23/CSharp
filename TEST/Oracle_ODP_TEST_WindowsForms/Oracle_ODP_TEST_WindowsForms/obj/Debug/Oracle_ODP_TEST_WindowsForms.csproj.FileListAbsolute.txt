@@ -1,0 +1,12 @@
+C:\Users\xsz19\source\repos\Oracle_ODP_TEST_WindowsForms\Oracle_ODP_TEST_WindowsForms\bin\Debug\Oracle_ODP_TEST_WindowsForms.exe.config
+C:\Users\xsz19\source\repos\Oracle_ODP_TEST_WindowsForms\Oracle_ODP_TEST_WindowsForms\bin\Debug\Oracle_ODP_TEST_WindowsForms.exe
+C:\Users\xsz19\source\repos\Oracle_ODP_TEST_WindowsForms\Oracle_ODP_TEST_WindowsForms\bin\Debug\Oracle_ODP_TEST_WindowsForms.pdb
+C:\Users\xsz19\source\repos\Oracle_ODP_TEST_WindowsForms\Oracle_ODP_TEST_WindowsForms\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\xsz19\source\repos\Oracle_ODP_TEST_WindowsForms\Oracle_ODP_TEST_WindowsForms\obj\Debug\Oracle_ODP_TEST_WindowsForms.csprojAssemblyReference.cache
+C:\Users\xsz19\source\repos\Oracle_ODP_TEST_WindowsForms\Oracle_ODP_TEST_WindowsForms\obj\Debug\Oracle_ODP_TEST_WindowsForms.Form1.resources
+C:\Users\xsz19\source\repos\Oracle_ODP_TEST_WindowsForms\Oracle_ODP_TEST_WindowsForms\obj\Debug\Oracle_ODP_TEST_WindowsForms.Properties.Resources.resources
+C:\Users\xsz19\source\repos\Oracle_ODP_TEST_WindowsForms\Oracle_ODP_TEST_WindowsForms\obj\Debug\Oracle_ODP_TEST_WindowsForms.csproj.GenerateResource.cache
+C:\Users\xsz19\source\repos\Oracle_ODP_TEST_WindowsForms\Oracle_ODP_TEST_WindowsForms\obj\Debug\Oracle_ODP_TEST_WindowsForms.csproj.CoreCompileInputs.cache
+C:\Users\xsz19\source\repos\Oracle_ODP_TEST_WindowsForms\Oracle_ODP_TEST_WindowsForms\obj\Debug\Oracle_ODP_TEST_WindowsForms.csproj.CopyComplete
+C:\Users\xsz19\source\repos\Oracle_ODP_TEST_WindowsForms\Oracle_ODP_TEST_WindowsForms\obj\Debug\Oracle_ODP_TEST_WindowsForms.exe
+C:\Users\xsz19\source\repos\Oracle_ODP_TEST_WindowsForms\Oracle_ODP_TEST_WindowsForms\obj\Debug\Oracle_ODP_TEST_WindowsForms.pdb

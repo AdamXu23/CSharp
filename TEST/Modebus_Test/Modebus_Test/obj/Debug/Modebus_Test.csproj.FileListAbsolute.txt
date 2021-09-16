@@ -1,0 +1,13 @@
+C:\Users\Administrator\source\repos\Modebus_Test\Modebus_Test\bin\Debug\Modebus_Test.exe.config
+C:\Users\Administrator\source\repos\Modebus_Test\Modebus_Test\bin\Debug\Modebus_Test.exe
+C:\Users\Administrator\source\repos\Modebus_Test\Modebus_Test\bin\Debug\Modebus_Test.pdb
+C:\Users\Administrator\source\repos\Modebus_Test\Modebus_Test\bin\Debug\log4net.dll
+C:\Users\Administrator\source\repos\Modebus_Test\Modebus_Test\bin\Debug\nmodbuspc.dll
+C:\Users\Administrator\source\repos\Modebus_Test\Modebus_Test\obj\Debug\Modebus_Test.Form1.resources
+C:\Users\Administrator\source\repos\Modebus_Test\Modebus_Test\obj\Debug\Modebus_Test.Properties.Resources.resources
+C:\Users\Administrator\source\repos\Modebus_Test\Modebus_Test\obj\Debug\Modebus_Test.csproj.GenerateResource.cache
+C:\Users\Administrator\source\repos\Modebus_Test\Modebus_Test\obj\Debug\Modebus_Test.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\Modebus_Test\Modebus_Test\obj\Debug\Modebus_Test.csproj.CopyComplete
+C:\Users\Administrator\source\repos\Modebus_Test\Modebus_Test\obj\Debug\Modebus_Test.exe
+C:\Users\Administrator\source\repos\Modebus_Test\Modebus_Test\obj\Debug\Modebus_Test.pdb
+C:\Users\Administrator\source\repos\Modebus_Test\Modebus_Test\obj\Debug\Modebus_Test.csprojAssemblyReference.cache

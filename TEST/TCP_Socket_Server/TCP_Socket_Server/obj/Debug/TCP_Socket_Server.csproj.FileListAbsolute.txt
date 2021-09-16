@@ -1,0 +1,17 @@
+C:\Users\xsz19\source\repos\TCP_Socket_Server\TCP_Socket_Server\bin\Debug\TCP_Socket_Server.exe
+C:\Users\xsz19\source\repos\TCP_Socket_Server\TCP_Socket_Server\bin\Debug\TCP_Socket_Server.pdb
+C:\Users\xsz19\source\repos\TCP_Socket_Server\TCP_Socket_Server\obj\Debug\TCP_Socket_Server.csprojAssemblyReference.cache
+C:\Users\xsz19\source\repos\TCP_Socket_Server\TCP_Socket_Server\obj\Debug\TCP_Socket_Server.Form1.resources
+C:\Users\xsz19\source\repos\TCP_Socket_Server\TCP_Socket_Server\obj\Debug\TCP_Socket_Server.Properties.Resources.resources
+C:\Users\xsz19\source\repos\TCP_Socket_Server\TCP_Socket_Server\obj\Debug\TCP_Socket_Server.csproj.GenerateResource.cache
+C:\Users\xsz19\source\repos\TCP_Socket_Server\TCP_Socket_Server\obj\Debug\TCP_Socket_Server.exe
+C:\Users\xsz19\source\repos\TCP_Socket_Server\TCP_Socket_Server\obj\Debug\TCP_Socket_Server.pdb
+C:\Users\Administrator\source\repos\TCP_Socket_Server\TCP_Socket_Server\bin\Debug\TCP_Socket_Server.exe
+C:\Users\Administrator\source\repos\TCP_Socket_Server\TCP_Socket_Server\bin\Debug\TCP_Socket_Server.pdb
+C:\Users\Administrator\source\repos\TCP_Socket_Server\TCP_Socket_Server\obj\Debug\TCP_Socket_Server.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\TCP_Socket_Server\TCP_Socket_Server\obj\Debug\TCP_Socket_Server.Form1.resources
+C:\Users\Administrator\source\repos\TCP_Socket_Server\TCP_Socket_Server\obj\Debug\TCP_Socket_Server.Properties.Resources.resources
+C:\Users\Administrator\source\repos\TCP_Socket_Server\TCP_Socket_Server\obj\Debug\TCP_Socket_Server.csproj.GenerateResource.cache
+C:\Users\Administrator\source\repos\TCP_Socket_Server\TCP_Socket_Server\obj\Debug\TCP_Socket_Server.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\TCP_Socket_Server\TCP_Socket_Server\obj\Debug\TCP_Socket_Server.exe
+C:\Users\Administrator\source\repos\TCP_Socket_Server\TCP_Socket_Server\obj\Debug\TCP_Socket_Server.pdb

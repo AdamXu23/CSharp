@@ -1,0 +1,6 @@
+C:\Users\xsz19\source\repos\Deleta RA Time\Deleta RA Time\bin\Debug\Deleta RA Time.exe.config
+C:\Users\xsz19\source\repos\Deleta RA Time\Deleta RA Time\bin\Debug\Deleta RA Time.exe
+C:\Users\xsz19\source\repos\Deleta RA Time\Deleta RA Time\bin\Debug\Deleta RA Time.pdb
+C:\Users\xsz19\source\repos\Deleta RA Time\Deleta RA Time\obj\Debug\Deleta RA Time.csprojAssemblyReference.cache
+C:\Users\xsz19\source\repos\Deleta RA Time\Deleta RA Time\obj\Debug\Deleta RA Time.exe
+C:\Users\xsz19\source\repos\Deleta RA Time\Deleta RA Time\obj\Debug\Deleta RA Time.pdb

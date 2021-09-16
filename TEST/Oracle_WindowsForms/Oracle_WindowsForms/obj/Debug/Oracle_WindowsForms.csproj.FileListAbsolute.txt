@@ -1,0 +1,5 @@
+C:\Users\xsz19\source\repos\Oracle_WindowsForms\Oracle_WindowsForms\obj\Debug\Oracle_WindowsForms.csprojAssemblyReference.cache
+C:\Users\xsz19\source\repos\Oracle_WindowsForms\Oracle_WindowsForms\obj\Debug\test.Form1.resources
+C:\Users\xsz19\source\repos\Oracle_WindowsForms\Oracle_WindowsForms\obj\Debug\Oracle_WindowsForms.Properties.Resources.resources
+C:\Users\xsz19\source\repos\Oracle_WindowsForms\Oracle_WindowsForms\obj\Debug\Oracle_WindowsForms.csproj.GenerateResource.cache
+C:\Users\xsz19\source\repos\Oracle_WindowsForms\Oracle_WindowsForms\obj\Debug\Oracle_WindowsForms.csproj.CoreCompileInputs.cache
