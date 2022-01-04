@@ -1,0 +1,17 @@
+C:\Users\xsz19\Documents\GitHub\CSharp\NET60\SystemDataSet\SystemDataSet\bin\Debug\net6.0-windows\SystemDataSet.exe
+C:\Users\xsz19\Documents\GitHub\CSharp\NET60\SystemDataSet\SystemDataSet\bin\Debug\net6.0-windows\SystemDataSet.deps.json
+C:\Users\xsz19\Documents\GitHub\CSharp\NET60\SystemDataSet\SystemDataSet\bin\Debug\net6.0-windows\SystemDataSet.runtimeconfig.json
+C:\Users\xsz19\Documents\GitHub\CSharp\NET60\SystemDataSet\SystemDataSet\bin\Debug\net6.0-windows\SystemDataSet.dll
+C:\Users\xsz19\Documents\GitHub\CSharp\NET60\SystemDataSet\SystemDataSet\bin\Debug\net6.0-windows\ref\SystemDataSet.dll
+C:\Users\xsz19\Documents\GitHub\CSharp\NET60\SystemDataSet\SystemDataSet\bin\Debug\net6.0-windows\SystemDataSet.pdb
+C:\Users\xsz19\Documents\GitHub\CSharp\NET60\SystemDataSet\SystemDataSet\obj\Debug\net6.0-windows\SystemDataSet.csproj.AssemblyReference.cache
+C:\Users\xsz19\Documents\GitHub\CSharp\NET60\SystemDataSet\SystemDataSet\obj\Debug\net6.0-windows\SystemDataSet.Form1.resources
+C:\Users\xsz19\Documents\GitHub\CSharp\NET60\SystemDataSet\SystemDataSet\obj\Debug\net6.0-windows\SystemDataSet.csproj.GenerateResource.cache
+C:\Users\xsz19\Documents\GitHub\CSharp\NET60\SystemDataSet\SystemDataSet\obj\Debug\net6.0-windows\SystemDataSet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\xsz19\Documents\GitHub\CSharp\NET60\SystemDataSet\SystemDataSet\obj\Debug\net6.0-windows\SystemDataSet.AssemblyInfoInputs.cache
+C:\Users\xsz19\Documents\GitHub\CSharp\NET60\SystemDataSet\SystemDataSet\obj\Debug\net6.0-windows\SystemDataSet.AssemblyInfo.cs
+C:\Users\xsz19\Documents\GitHub\CSharp\NET60\SystemDataSet\SystemDataSet\obj\Debug\net6.0-windows\SystemDataSet.csproj.CoreCompileInputs.cache
+C:\Users\xsz19\Documents\GitHub\CSharp\NET60\SystemDataSet\SystemDataSet\obj\Debug\net6.0-windows\SystemDataSet.dll
+C:\Users\xsz19\Documents\GitHub\CSharp\NET60\SystemDataSet\SystemDataSet\obj\Debug\net6.0-windows\ref\SystemDataSet.dll
+C:\Users\xsz19\Documents\GitHub\CSharp\NET60\SystemDataSet\SystemDataSet\obj\Debug\net6.0-windows\SystemDataSet.pdb
+C:\Users\xsz19\Documents\GitHub\CSharp\NET60\SystemDataSet\SystemDataSet\obj\Debug\net6.0-windows\SystemDataSet.genruntimeconfig.cache
