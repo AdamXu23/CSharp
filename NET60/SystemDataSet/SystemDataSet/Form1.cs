@@ -35,5 +35,10 @@ namespace SystemDataSet
                 dataGridView1.DataSource = _data.dataset.Tables[DataTable_ComboBox.SelectedIndex];
             }
         }
+
+        private void splitContainer1_Panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
