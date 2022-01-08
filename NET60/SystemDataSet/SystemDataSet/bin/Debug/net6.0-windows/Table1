@@ -1,38 +1,39 @@
 <?xml version="1.0" standalone="yes"?>
 <Test_Data>
   <Table1>
-    <Columns1>0</Columns1>
-    <Columns2>1</Columns2>
-    <Columns3>2</Columns3>
-    <Columns4>3</Columns4>
-    <Columns5>4</Columns5>
-  </Table1>
-  <Table1>
-    <Columns1>100</Columns1>
-    <Columns2>101</Columns2>
-    <Columns3>102</Columns3>
-    <Columns4>103</Columns4>
-    <Columns5>104</Columns5>
-  </Table1>
-  <Table1>
-    <Columns1>200</Columns1>
-    <Columns2>201</Columns2>
-    <Columns3>202</Columns3>
-    <Columns4>203</Columns4>
-    <Columns5>204</Columns5>
-  </Table1>
-  <Table1>
-    <Columns1>300</Columns1>
-    <Columns2>301</Columns2>
-    <Columns3>302</Columns3>
-    <Columns4>303</Columns4>
-    <Columns5>304</Columns5>
-  </Table1>
-  <Table1>
-    <Columns1>400</Columns1>
-    <Columns2>401</Columns2>
-    <Columns3>402</Columns3>
-    <Columns4>403</Columns4>
-    <Columns5>404</Columns5>
+    <Columns1>1</Columns1>
+    <Columns2>2</Columns2>
+    <Columns3>3</Columns3>
+    <Columns4>4</Columns4>
+    <Columns5>
+      <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Table2" msdata:UseCurrentLocale="true">
+          <xs:complexType>
+            <xs:choice minOccurs="0" maxOccurs="unbounded">
+              <xs:element name="Table2">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Columns1" type="xs:int" minOccurs="0" />
+                    <xs:element name="Columns2" type="xs:int" minOccurs="0" />
+                    <xs:element name="Columns3" type="xs:int" minOccurs="0" />
+                    <xs:element name="Columns4" type="xs:int" minOccurs="0" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:choice>
+          </xs:complexType>
+        </xs:element>
+      </xs:schema>
+      <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+        <DocumentElement>
+          <Table2 diffgr:id="Table21" msdata:rowOrder="0" diffgr:hasChanges="inserted">
+            <Columns1>1</Columns1>
+            <Columns2>2</Columns2>
+            <Columns3>3</Columns3>
+            <Columns4>4</Columns4>
+          </Table2>
+        </DocumentElement>
+      </diffgr:diffgram>
+    </Columns5>
   </Table1>
 </Test_Data>
