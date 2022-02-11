@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "5bef919c-ef28-4fa2-b81b-c25a0efd9ec7": {
+      "ProjectGuid": "5bef919c-ef28-4fa2-b81b-c25a0efd9ec7",
+      "DisplayName": "Geek Plus Json Http",
+      "ColorIndex": 0
+    },
+    "93712039-a0b1-43bb-b45a-efc0037a25f2": {
+      "ProjectGuid": "93712039-a0b1-43bb-b45a-efc0037a25f2",
+      "DisplayName": "Json example",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "其他檔案",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 2
+}

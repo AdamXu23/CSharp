@@ -1,0 +1,19 @@
+C:\Users\M5510\Documents\GitHub\CSharp\NET 6\Json example\Json example\bin\Debug\net6.0-windows\Json example.exe
+C:\Users\M5510\Documents\GitHub\CSharp\NET 6\Json example\Json example\bin\Debug\net6.0-windows\Json example.deps.json
+C:\Users\M5510\Documents\GitHub\CSharp\NET 6\Json example\Json example\bin\Debug\net6.0-windows\Json example.runtimeconfig.json
+C:\Users\M5510\Documents\GitHub\CSharp\NET 6\Json example\Json example\bin\Debug\net6.0-windows\Json example.dll
+C:\Users\M5510\Documents\GitHub\CSharp\NET 6\Json example\Json example\bin\Debug\net6.0-windows\ref\Json example.dll
+C:\Users\M5510\Documents\GitHub\CSharp\NET 6\Json example\Json example\bin\Debug\net6.0-windows\Json example.pdb
+C:\Users\M5510\Documents\GitHub\CSharp\NET 6\Json example\Json example\obj\Debug\net6.0-windows\Json example.csproj.AssemblyReference.cache
+C:\Users\M5510\Documents\GitHub\CSharp\NET 6\Json example\Json example\obj\Debug\net6.0-windows\Json_example.Form1.resources
+C:\Users\M5510\Documents\GitHub\CSharp\NET 6\Json example\Json example\obj\Debug\net6.0-windows\Json example.csproj.GenerateResource.cache
+C:\Users\M5510\Documents\GitHub\CSharp\NET 6\Json example\Json example\obj\Debug\net6.0-windows\Json example.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\M5510\Documents\GitHub\CSharp\NET 6\Json example\Json example\obj\Debug\net6.0-windows\Json example.AssemblyInfoInputs.cache
+C:\Users\M5510\Documents\GitHub\CSharp\NET 6\Json example\Json example\obj\Debug\net6.0-windows\Json example.AssemblyInfo.cs
+C:\Users\M5510\Documents\GitHub\CSharp\NET 6\Json example\Json example\obj\Debug\net6.0-windows\Json example.csproj.CoreCompileInputs.cache
+C:\Users\M5510\Documents\GitHub\CSharp\NET 6\Json example\Json example\obj\Debug\net6.0-windows\Json example.dll
+C:\Users\M5510\Documents\GitHub\CSharp\NET 6\Json example\Json example\obj\Debug\net6.0-windows\ref\Json example.dll
+C:\Users\M5510\Documents\GitHub\CSharp\NET 6\Json example\Json example\obj\Debug\net6.0-windows\Json example.pdb
+C:\Users\M5510\Documents\GitHub\CSharp\NET 6\Json example\Json example\obj\Debug\net6.0-windows\Json example.genruntimeconfig.cache
+C:\Users\M5510\Documents\GitHub\CSharp\NET 6\Json example\Json example\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\M5510\Documents\GitHub\CSharp\NET 6\Json example\Json example\obj\Debug\net6.0-windows\Json example.csproj.CopyComplete

@@ -1,0 +1,17 @@
+C:\Users\M5510\Documents\GitHub\CSharp\NET 6\Dispatch System\Dispatch System\obj\Debug\net6.0-windows\Dispatch System.csproj.AssemblyReference.cache
+C:\Users\M5510\Documents\GitHub\CSharp\NET 6\Dispatch System\Dispatch System\obj\Debug\net6.0-windows\Dispatch_System.Form1.resources
+C:\Users\M5510\Documents\GitHub\CSharp\NET 6\Dispatch System\Dispatch System\obj\Debug\net6.0-windows\Dispatch System.csproj.GenerateResource.cache
+C:\Users\M5510\Documents\GitHub\CSharp\NET 6\Dispatch System\Dispatch System\obj\Debug\net6.0-windows\Dispatch System.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\M5510\Documents\GitHub\CSharp\NET 6\Dispatch System\Dispatch System\obj\Debug\net6.0-windows\Dispatch System.AssemblyInfoInputs.cache
+C:\Users\M5510\Documents\GitHub\CSharp\NET 6\Dispatch System\Dispatch System\obj\Debug\net6.0-windows\Dispatch System.AssemblyInfo.cs
+C:\Users\M5510\Documents\GitHub\CSharp\NET 6\Dispatch System\Dispatch System\obj\Debug\net6.0-windows\Dispatch System.csproj.CoreCompileInputs.cache
+C:\Users\M5510\Documents\GitHub\CSharp\NET 6\Dispatch System\Dispatch System\bin\Debug\net6.0-windows\Dispatch System.exe
+C:\Users\M5510\Documents\GitHub\CSharp\NET 6\Dispatch System\Dispatch System\bin\Debug\net6.0-windows\Dispatch System.deps.json
+C:\Users\M5510\Documents\GitHub\CSharp\NET 6\Dispatch System\Dispatch System\bin\Debug\net6.0-windows\Dispatch System.runtimeconfig.json
+C:\Users\M5510\Documents\GitHub\CSharp\NET 6\Dispatch System\Dispatch System\bin\Debug\net6.0-windows\Dispatch System.dll
+C:\Users\M5510\Documents\GitHub\CSharp\NET 6\Dispatch System\Dispatch System\bin\Debug\net6.0-windows\ref\Dispatch System.dll
+C:\Users\M5510\Documents\GitHub\CSharp\NET 6\Dispatch System\Dispatch System\bin\Debug\net6.0-windows\Dispatch System.pdb
+C:\Users\M5510\Documents\GitHub\CSharp\NET 6\Dispatch System\Dispatch System\obj\Debug\net6.0-windows\Dispatch System.dll
+C:\Users\M5510\Documents\GitHub\CSharp\NET 6\Dispatch System\Dispatch System\obj\Debug\net6.0-windows\ref\Dispatch System.dll
+C:\Users\M5510\Documents\GitHub\CSharp\NET 6\Dispatch System\Dispatch System\obj\Debug\net6.0-windows\Dispatch System.pdb
+C:\Users\M5510\Documents\GitHub\CSharp\NET 6\Dispatch System\Dispatch System\obj\Debug\net6.0-windows\Dispatch System.genruntimeconfig.cache

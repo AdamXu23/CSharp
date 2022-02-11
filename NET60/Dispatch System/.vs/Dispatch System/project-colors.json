@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "8427b39b-cdd8-41ee-955c-c66e89c655f7": {
+      "ProjectGuid": "8427b39b-cdd8-41ee-955c-c66e89c655f7",
+      "DisplayName": "Dispatch System",
+      "ColorIndex": 0
+    },
+    "8db2de0f-94b9-4319-b037-e14be99af719": {
+      "ProjectGuid": "8db2de0f-94b9-4319-b037-e14be99af719",
+      "DisplayName": "MSG_SOHC",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

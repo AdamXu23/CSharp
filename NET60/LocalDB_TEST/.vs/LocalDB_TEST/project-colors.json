@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "73b1853e-6deb-45d0-aaf9-2ff3b890f517": {
+      "ProjectGuid": "73b1853e-6deb-45d0-aaf9-2ff3b890f517",
+      "DisplayName": "LocalDB_TEST",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "其他檔案",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 1
+}

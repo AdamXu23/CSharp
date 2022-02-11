@@ -1,0 +1,19 @@
+C:\Users\M5510\Documents\GitHub\CSharp\NET 6\Geek Plus Json Http\Geek Plus Json Http\obj\Debug\net6.0-windows\Geek Plus Json Http.csproj.AssemblyReference.cache
+C:\Users\M5510\Documents\GitHub\CSharp\NET 6\Geek Plus Json Http\Geek Plus Json Http\obj\Debug\net6.0-windows\Geek_Plus_Json_Http.Form1.resources
+C:\Users\M5510\Documents\GitHub\CSharp\NET 6\Geek Plus Json Http\Geek Plus Json Http\obj\Debug\net6.0-windows\Geek Plus Json Http.csproj.GenerateResource.cache
+C:\Users\M5510\Documents\GitHub\CSharp\NET 6\Geek Plus Json Http\Geek Plus Json Http\obj\Debug\net6.0-windows\Geek Plus Json Http.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\M5510\Documents\GitHub\CSharp\NET 6\Geek Plus Json Http\Geek Plus Json Http\obj\Debug\net6.0-windows\Geek Plus Json Http.AssemblyInfoInputs.cache
+C:\Users\M5510\Documents\GitHub\CSharp\NET 6\Geek Plus Json Http\Geek Plus Json Http\obj\Debug\net6.0-windows\Geek Plus Json Http.AssemblyInfo.cs
+C:\Users\M5510\Documents\GitHub\CSharp\NET 6\Geek Plus Json Http\Geek Plus Json Http\obj\Debug\net6.0-windows\Geek Plus Json Http.csproj.CoreCompileInputs.cache
+C:\Users\M5510\Documents\GitHub\CSharp\NET 6\Geek Plus Json Http\Geek Plus Json Http\bin\Debug\net6.0-windows\Geek Plus Json Http.exe
+C:\Users\M5510\Documents\GitHub\CSharp\NET 6\Geek Plus Json Http\Geek Plus Json Http\bin\Debug\net6.0-windows\Geek Plus Json Http.deps.json
+C:\Users\M5510\Documents\GitHub\CSharp\NET 6\Geek Plus Json Http\Geek Plus Json Http\bin\Debug\net6.0-windows\Geek Plus Json Http.runtimeconfig.json
+C:\Users\M5510\Documents\GitHub\CSharp\NET 6\Geek Plus Json Http\Geek Plus Json Http\bin\Debug\net6.0-windows\Geek Plus Json Http.dll
+C:\Users\M5510\Documents\GitHub\CSharp\NET 6\Geek Plus Json Http\Geek Plus Json Http\bin\Debug\net6.0-windows\ref\Geek Plus Json Http.dll
+C:\Users\M5510\Documents\GitHub\CSharp\NET 6\Geek Plus Json Http\Geek Plus Json Http\bin\Debug\net6.0-windows\Geek Plus Json Http.pdb
+C:\Users\M5510\Documents\GitHub\CSharp\NET 6\Geek Plus Json Http\Geek Plus Json Http\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\M5510\Documents\GitHub\CSharp\NET 6\Geek Plus Json Http\Geek Plus Json Http\obj\Debug\net6.0-windows\Geek Plus Json Http.csproj.CopyComplete
+C:\Users\M5510\Documents\GitHub\CSharp\NET 6\Geek Plus Json Http\Geek Plus Json Http\obj\Debug\net6.0-windows\Geek Plus Json Http.dll
+C:\Users\M5510\Documents\GitHub\CSharp\NET 6\Geek Plus Json Http\Geek Plus Json Http\obj\Debug\net6.0-windows\ref\Geek Plus Json Http.dll
+C:\Users\M5510\Documents\GitHub\CSharp\NET 6\Geek Plus Json Http\Geek Plus Json Http\obj\Debug\net6.0-windows\Geek Plus Json Http.pdb
+C:\Users\M5510\Documents\GitHub\CSharp\NET 6\Geek Plus Json Http\Geek Plus Json Http\obj\Debug\net6.0-windows\Geek Plus Json Http.genruntimeconfig.cache

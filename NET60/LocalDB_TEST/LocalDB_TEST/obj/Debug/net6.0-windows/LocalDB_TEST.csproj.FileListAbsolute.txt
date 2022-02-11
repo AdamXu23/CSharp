@@ -1,0 +1,17 @@
+C:\Users\M5510\Documents\GitHub\CSharp\NET 6\LocalDB_TEST\LocalDB_TEST\bin\Debug\net6.0-windows\LocalDB_TEST.exe
+C:\Users\M5510\Documents\GitHub\CSharp\NET 6\LocalDB_TEST\LocalDB_TEST\bin\Debug\net6.0-windows\LocalDB_TEST.deps.json
+C:\Users\M5510\Documents\GitHub\CSharp\NET 6\LocalDB_TEST\LocalDB_TEST\bin\Debug\net6.0-windows\LocalDB_TEST.runtimeconfig.json
+C:\Users\M5510\Documents\GitHub\CSharp\NET 6\LocalDB_TEST\LocalDB_TEST\bin\Debug\net6.0-windows\LocalDB_TEST.dll
+C:\Users\M5510\Documents\GitHub\CSharp\NET 6\LocalDB_TEST\LocalDB_TEST\bin\Debug\net6.0-windows\ref\LocalDB_TEST.dll
+C:\Users\M5510\Documents\GitHub\CSharp\NET 6\LocalDB_TEST\LocalDB_TEST\bin\Debug\net6.0-windows\LocalDB_TEST.pdb
+C:\Users\M5510\Documents\GitHub\CSharp\NET 6\LocalDB_TEST\LocalDB_TEST\obj\Debug\net6.0-windows\LocalDB_TEST.csproj.AssemblyReference.cache
+C:\Users\M5510\Documents\GitHub\CSharp\NET 6\LocalDB_TEST\LocalDB_TEST\obj\Debug\net6.0-windows\LocalDB_TEST.Form1.resources
+C:\Users\M5510\Documents\GitHub\CSharp\NET 6\LocalDB_TEST\LocalDB_TEST\obj\Debug\net6.0-windows\LocalDB_TEST.csproj.GenerateResource.cache
+C:\Users\M5510\Documents\GitHub\CSharp\NET 6\LocalDB_TEST\LocalDB_TEST\obj\Debug\net6.0-windows\LocalDB_TEST.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\M5510\Documents\GitHub\CSharp\NET 6\LocalDB_TEST\LocalDB_TEST\obj\Debug\net6.0-windows\LocalDB_TEST.AssemblyInfoInputs.cache
+C:\Users\M5510\Documents\GitHub\CSharp\NET 6\LocalDB_TEST\LocalDB_TEST\obj\Debug\net6.0-windows\LocalDB_TEST.AssemblyInfo.cs
+C:\Users\M5510\Documents\GitHub\CSharp\NET 6\LocalDB_TEST\LocalDB_TEST\obj\Debug\net6.0-windows\LocalDB_TEST.csproj.CoreCompileInputs.cache
+C:\Users\M5510\Documents\GitHub\CSharp\NET 6\LocalDB_TEST\LocalDB_TEST\obj\Debug\net6.0-windows\LocalDB_TEST.dll
+C:\Users\M5510\Documents\GitHub\CSharp\NET 6\LocalDB_TEST\LocalDB_TEST\obj\Debug\net6.0-windows\ref\LocalDB_TEST.dll
+C:\Users\M5510\Documents\GitHub\CSharp\NET 6\LocalDB_TEST\LocalDB_TEST\obj\Debug\net6.0-windows\LocalDB_TEST.pdb
+C:\Users\M5510\Documents\GitHub\CSharp\NET 6\LocalDB_TEST\LocalDB_TEST\obj\Debug\net6.0-windows\LocalDB_TEST.genruntimeconfig.cache
