@@ -1,0 +1,6 @@
+C:\Users\M5510\Documents\GitHub\CSharp\NET60\Geek Plus Json Http\Geek Plus Json Http\bin\Release\net6.0-windows\publish\Geek Plus Json Http.exe
+C:\Users\M5510\Documents\GitHub\CSharp\NET60\Geek Plus Json Http\Geek Plus Json Http\bin\Release\net6.0-windows\publish\Geek Plus Json Http.dll
+C:\Users\M5510\Documents\GitHub\CSharp\NET60\Geek Plus Json Http\Geek Plus Json Http\bin\Release\net6.0-windows\publish\Geek Plus Json Http.deps.json
+C:\Users\M5510\Documents\GitHub\CSharp\NET60\Geek Plus Json Http\Geek Plus Json Http\bin\Release\net6.0-windows\publish\Geek Plus Json Http.runtimeconfig.json
+C:\Users\M5510\Documents\GitHub\CSharp\NET60\Geek Plus Json Http\Geek Plus Json Http\bin\Release\net6.0-windows\publish\Geek Plus Json Http.pdb
+C:\Users\M5510\Documents\GitHub\CSharp\NET60\Geek Plus Json Http\Geek Plus Json Http\bin\Release\net6.0-windows\publish\Newtonsoft.Json.dll

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\M5510\\Documents\\GitHub\\CSharp\\NET 6\\Json example\\Json example\\Json example.csproj": {}
+    "C:\\Users\\M5510\\Documents\\GitHub\\CSharp\\NET60\\Json example\\Json example\\Json example.csproj": {}
   },
   "projects": {
-    "C:\\Users\\M5510\\Documents\\GitHub\\CSharp\\NET 6\\Json example\\Json example\\Json example.csproj": {
+    "C:\\Users\\M5510\\Documents\\GitHub\\CSharp\\NET60\\Json example\\Json example\\Json example.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\M5510\\Documents\\GitHub\\CSharp\\NET 6\\Json example\\Json example\\Json example.csproj",
+        "projectUniqueName": "C:\\Users\\M5510\\Documents\\GitHub\\CSharp\\NET60\\Json example\\Json example\\Json example.csproj",
         "projectName": "Json example",
-        "projectPath": "C:\\Users\\M5510\\Documents\\GitHub\\CSharp\\NET 6\\Json example\\Json example\\Json example.csproj",
+        "projectPath": "C:\\Users\\M5510\\Documents\\GitHub\\CSharp\\NET60\\Json example\\Json example\\Json example.csproj",
         "packagesPath": "C:\\Users\\M5510\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\M5510\\Documents\\GitHub\\CSharp\\NET 6\\Json example\\Json example\\obj\\",
+        "outputPath": "C:\\Users\\M5510\\Documents\\GitHub\\CSharp\\NET60\\Json example\\Json example\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -54,11 +54,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\M5510\\Documents\\GitHub\\CSharp\\NET 6\\Geek Plus Json Http\\Geek Plus Json Http\\Geek Plus Json Http.csproj",
+      "projectUniqueName": "C:\\Users\\M5510\\Documents\\GitHub\\CSharp\\NET60\\Geek Plus Json Http\\Geek Plus Json Http\\Geek Plus Json Http.csproj",
       "projectName": "Geek Plus Json Http",
-      "projectPath": "C:\\Users\\M5510\\Documents\\GitHub\\CSharp\\NET 6\\Geek Plus Json Http\\Geek Plus Json Http\\Geek Plus Json Http.csproj",
+      "projectPath": "C:\\Users\\M5510\\Documents\\GitHub\\CSharp\\NET60\\Geek Plus Json Http\\Geek Plus Json Http\\Geek Plus Json Http.csproj",
       "packagesPath": "C:\\Users\\M5510\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\M5510\\Documents\\GitHub\\CSharp\\NET 6\\Geek Plus Json Http\\Geek Plus Json Http\\obj\\",
+      "outputPath": "C:\\Users\\M5510\\Documents\\GitHub\\CSharp\\NET60\\Geek Plus Json Http\\Geek Plus Json Http\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
