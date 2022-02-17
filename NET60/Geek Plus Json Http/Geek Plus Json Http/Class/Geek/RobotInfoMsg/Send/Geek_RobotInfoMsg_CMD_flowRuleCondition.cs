@@ -8,15 +8,15 @@ using System.Text.Json.Serialization;
 
 namespace Geek_Plus_Json_Http
 {
-    public class Geek_CMD_flowRuleCondition
+    public class Geek_RobotInfoMsg_CMD_flowRuleCondition
     {
         public string extraParam1 = String.Empty;//extraParam1
 
-        public Geek_CMD_flowRuleCondition( string _extraParam1)
+        public Geek_RobotInfoMsg_CMD_flowRuleCondition( string _extraParam1)
         {
             this.extraParam1 = _extraParam1;
         }
-        public Geek_CMD_flowRuleCondition( )
+        public Geek_RobotInfoMsg_CMD_flowRuleCondition( )
         {
         }
     }

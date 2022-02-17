@@ -8,7 +8,7 @@ using System.Text.Json.Serialization;
 
 namespace Geek_Plus_Json_Http
 {
-    public class Geek_CMD_header
+    public class Geek_WorkflowStartMsg_CMD_header
     {
         public string requestId;//requestId
 
@@ -18,14 +18,14 @@ namespace Geek_Plus_Json_Http
 
         public string requestTime;//requestTime
 
-        public Geek_CMD_header( string _channelId, string _clientCode)
+        public Geek_WorkflowStartMsg_CMD_header( string _channelId, string _clientCode)
         {
             this.requestId = Guid.NewGuid().ToString();
             this.channelId = _channelId;
             this.clientCode = _clientCode;
             this.requestTime = DateTime.Now.ToString("yyyy-MM-dd hh:mm:ss");
         }
-        public Geek_CMD_header( )
+        public Geek_WorkflowStartMsg_CMD_header( )
         {
             this.requestId = Guid.NewGuid().ToString();
             this.channelId = "client-01";

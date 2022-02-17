@@ -8,7 +8,7 @@ using System.Text.Json.Serialization;
 
 namespace Geek_Plus_Json_Http
 {
-    public class Geek_CMD_body
+    public class Geek_WorkflowStartMsg_CMD_body
     {
 
         public string msgType = "WorkflowStartMsg";//extraParam1
@@ -19,14 +19,14 @@ namespace Geek_Plus_Json_Http
         public string containerCategory = String.Empty;//extraParam1
         public string containerCode = String.Empty;//extraParam1
         public string nextPoint = String.Empty;//extraParam1
-        public Geek_CMD_flowRuleCondition flowRuleCondition = new Geek_CMD_flowRuleCondition();
+        public Geek_WorkflowStartMsg_CMD_flowRuleCondition flowRuleCondition = new Geek_WorkflowStartMsg_CMD_flowRuleCondition();
 
 
-        public Geek_CMD_body(string _workflowCode)
+        public Geek_WorkflowStartMsg_CMD_body(string _workflowCode)
         {
             this.workflowCode = _workflowCode;
         }
-        public Geek_CMD_body()
+        public Geek_WorkflowStartMsg_CMD_body()
         {
         }
     }
